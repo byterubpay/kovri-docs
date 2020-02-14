@@ -6,4 +6,4 @@ Sostanzialmente Kovri *copre* il traffico internet di un'applicazione, in modo d
 
 Kovri è un router leggero e incentrato sulla sicurezza, completamente compatibile con il network I2P. Una versione alpha di Kovri è attualmente in sviluppo.
 
-Segui lo sviluppo tramite la [Kovri repo](https://github.com/monero-project/kovri#downloads) e [unisciti alla community](https://github.com/monero-project/kovri#contact).
+Segui lo sviluppo tramite la [Kovri repo](https://github.com/byterubpay/kovri#downloads) e [unisciti alla community](https://github.com/byterubpay/kovri#contact).

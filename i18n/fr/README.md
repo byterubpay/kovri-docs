@@ -1,4 +1,4 @@
-[<img width="300" src="https://static.getmonero.org/images/kovri/logo.png" alt="ˈKoʊvriː" />](https://github.com/monero-project/kovri)
+[<img width="300" src="https://static.getmonero.org/images/kovri/logo.png" alt="ˈKoʊvriː" />](https://github.com/byterubpay/kovri)
 
 1. [Couvrir, voiler, envelopper](https://fr.wikipedia.org/wiki/Esperanto)
 2. Une technologie d'anonymisation gratuire et décentralisée basée sur les spécifications ouvertes d'[I2P](https://getmonero.org/resources/moneropedia/i2p.html)
@@ -12,7 +12,7 @@
 - Vous voulez compiler et installer vous-même ? [Instruction de compilation](#compilation)
 
 ## Multilingual README
-Ceci est une version traduite du README Kovri, la version originale (en anglais) est disponible ici : https://github.com/monero-project/kovri/blob/master/README.md
+Ceci est une version traduite du README Kovri, la version originale (en anglais) est disponible ici : https://github.com/byterubpay/kovri/blob/master/README.md
 
 ## Téléchargements
 
@@ -38,7 +38,7 @@ Ceci est une version traduite du README Kovri, la version originale (en anglais)
 | Type      | Etat |
 |-----------|--------|
 | Coverity  | [![Coverity Status](https://scan.coverity.com/projects/7621/badge.svg)](https://scan.coverity.com/projects/7621/)
-| Coveralls | [![Coveralls Status](https://coveralls.io/repos/github/monero-project/kovri/badge.svg?branch=master)](https://coveralls.io/github/monero-project/kovri?branch=master)
+| Coveralls | [![Coveralls Status](https://coveralls.io/repos/github/byterubpay/kovri/badge.svg?branch=master)](https://coveralls.io/github/byterubpay/kovri?branch=master)
 | License   | [![License](https://img.shields.io/badge/license-BSD3-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Compilation
@@ -84,7 +84,7 @@ Optionnellement :
 ***Ne pas* utiliser le fichier zip de github : faites uniquement un clone récursif**
 
 ```bash
-$ git clone --recursive https://github.com/monero-project/kovri
+$ git clone --recursive https://github.com/byterubpay/kovri
 $ cd kovri && make release  # Voir le Makefile pour toutes les options de compilation
 $ make install
 ```
@@ -101,17 +101,17 @@ $ docker build -t kovri:latest .
 ```
 
 ## Documentation et Développement
-- Un [Guide Utilisateur](https://github.com/monero-project/kovri-docs/blob/master/i18n/fr/user_guide.md) est disponible pour tous les utilisateurs
-- Un [Guide de développement](https://github.com/monero-project/kovri-docs/blob/master/i18n/fr/developer_guide.md) est disponible pour les développeurs (veuillez le consulter avant d'ouvrir une *pull request*)
-- Vous trouverez plus de documentation dans la langue de votre choix dans le dépôt [kovri-docs](https://github.com/monero-project/kovri-docs/)
+- Un [Guide Utilisateur](https://github.com/byterubpay/kovri-docs/blob/master/i18n/fr/user_guide.md) est disponible pour tous les utilisateurs
+- Un [Guide de développement](https://github.com/byterubpay/kovri-docs/blob/master/i18n/fr/developer_guide.md) est disponible pour les développeurs (veuillez le consulter avant d'ouvrir une *pull request*)
+- Vous trouverez plus de documentation dans la langue de votre choix dans le dépôt [kovri-docs](https://github.com/byterubpay/kovri-docs/)
 - [Moneropedia](https://getmonero.org/fr/resources/moneropedia/kovri.html) est recommandé pour tous les utilisateurs et développeurs
 - Le [Forum Funding System](https://forum.getmonero.org/8/funding-required) permet d'obtenir des fonds pour financer vos travaux, [soumettez une proposition](https://forum.getmonero.org/7/open-tasks/2379/forum-funding-system-ffs-sticky)
 - [build.getmonero.org](https://build.getmonero.org/) ou monero-build.i2p pour des informations de compilation détaillées
-- [repo.getmonero.org](https://repo.getmonero.org/monero-project/kovri) ou monero-repo.i2p sont des alternatives à GitHub pour l'accès au dépot en lecture
-- Voir également [kovri-site](https://github.com/monero-project/kovri-site) et [monero/kovri meta](https://github.com/monero-project/meta)
+- [repo.getmonero.org](https://repo.getmonero.org/byterubpay/kovri) ou monero-repo.i2p sont des alternatives à GitHub pour l'accès au dépot en lecture
+- Voir également [kovri-site](https://github.com/byterubpay/kovri-site) et [monero/kovri meta](https://github.com/byterubpay/meta)
 
 ## Réponse aux Vulnérabilités
-- Notre [Processus de Réponse aux Vulnérabilités](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourage les divulgations responsables
+- Notre [Processus de Réponse aux Vulnérabilités](https://github.com/byterubpay/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourage les divulgations responsables
 - Nous sommes également disponible à travers [HackerOne](https://hackerone.com/monero)
 
 ## Contact et Support

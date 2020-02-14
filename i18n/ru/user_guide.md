@@ -8,7 +8,7 @@
 Заметки:
 
 - Если вы не сохраните порт, Kovri будет произвольно генерировать новый при каждом запуске (у вас также есть вариант задавать порт параметром `--port` при каждом запуске).
-- Если у вас нет доступа к вашему NAT, см. Инструкции в [руководстве сборки](https://github.com/monero-project/kovri-docs/blob/master/i18n/ru/building.md) для своей ОС.
+- Если у вас нет доступа к вашему NAT, см. Инструкции в [руководстве сборки](https://github.com/byterubpay/kovri-docs/blob/master/i18n/ru/building.md) для своей ОС.
 - **Не сообщайте никому свой номер порта, поскольку это влияет на вашу анонимность!**
 
 ## Шаг 2. (Рекомендовано) Рабочая безопасность
@@ -58,9 +58,9 @@ $ cd "C:\Program Files\Kovri" ; ./kovri.exe --help
 
 ## Шаг 5. (Выборочно) Зарегистрируйте свой новый [eepsite](https://getmonero.org/resources/moneropedia/eepsite)
 
-**Стоп! Пока не решено [#498](https://github.com/monero-project/kovri/issues/498), подумайте над регистрацией вашего сервиса только с Kovri, а *не* с stats.i2p!**
+**Стоп! Пока не решено [#498](https://github.com/byterubpay/kovri/issues/498), подумайте над регистрацией вашего сервиса только с Kovri, а *не* с stats.i2p!**
 
-- Откройте запрос с `[Subscription Request] your-host.i2p` (замените your-host.i2p на нужное имя хоста) в [Kovri issue tracker](https://github.com/monero-project/kovri/issues)
+- Откройте запрос с `[Subscription Request] your-host.i2p` (замените your-host.i2p на нужное имя хоста) в [Kovri issue tracker](https://github.com/byterubpay/kovri/issues)
 - В тело запроса вставьте содержимое вашего открытого файла `.txt`, упомянутого на предыдущем шаге
 - После проверки мы добавим ваш хост и подпишем подписку
 - Готово!
@@ -91,7 +91,7 @@ $ cd build/ && ./kovri
 
 ## Шаг 9. Наслаждайтесь!
 - Почитать больше о Kovri в [Moneropedia](https://getmonero.org/resources/moneropedia/kovri).
-- Открыть запрос на доработку или сообщить об ошибке в наш [issues tracker](https://github.com/monero-project/kovri/issues)
+- Открыть запрос на доработку или сообщить об ошибке в наш [issues tracker](https://github.com/byterubpay/kovri/issues)
 - Узнать больше о сети I2P [сайте java I2P](https://geti2p.net/en/docs)
 
 
@@ -104,7 +104,7 @@ $ cd build/ && ./kovri
 ### Шаг 1. Получить исходники Kovri
 
 ```bash
-$ git clone --recursive https://github.com/monero-project/kovri
+$ git clone --recursive https://github.com/byterubpay/kovri
 ```
 
 ### Шаг 2. Установить snapcraft

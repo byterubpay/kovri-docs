@@ -3,19 +3,19 @@
 - Nutze bitte die Standardbibliothek und die Abhängigkeitsbibliotheken, wann immer es möglich ist
 
 ## Vulnerability Response
-- Unser [Vulnerability Response Process](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) ermutigt zur verantwortungsvollen Offenlegung
+- Unser [Vulnerability Response Process](https://github.com/byterubpay/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) ermutigt zur verantwortungsvollen Offenlegung
 - Wir sind auch via [HackerOne](https://hackerone.com/monero) erreichbar
 
 ## Stil
 1. Lies dir [Googles C++-Stilhandbuch](https://google.github.io/styleguide/cppguide.html) durch (insbesondere für nicht formatierende Stilverweise)
     - Bei Bash-Programmierung, lies [Googles Shell-Stilhandbuch](https://github.com/google/styleguide/blob/gh-pages/shell.xml)
-2. Bei Dateien, die nur Neues enthalten, lasse [clang-format](http://clang.llvm.org/docs/ClangFormat.html) mit ```-style=file``` (das unser bereitgestelltes [.clang-format](https://github.com/monero-project/kovri/blob/master/.clang-format) nutzt) laufen
+2. Bei Dateien, die nur Neues enthalten, lasse [clang-format](http://clang.llvm.org/docs/ClangFormat.html) mit ```-style=file``` (das unser bereitgestelltes [.clang-format](https://github.com/byterubpay/kovri/blob/master/.clang-format) nutzt) laufen
 ```bash
 $ cd kovri/ && clang-format -i -style=file Quelle/Pfad/zu/meiner/Datei
 ```
 3. Bei Dateien mit gemischter Arbeit (vorhandener + neuer), lasse [clang-format](http://clang.llvm.org/docs/ClangFormat.html) punktuell nur über die Zeilen laufen, die direkt mit der neuen Arbeit zusammenhängen.
    - In der [vim](http://clang.llvm.org/docs/ClangFormat.html#vim-integration)- und [emacs](http://clang.llvm.org/docs/ClangFormat.html#emacs-integration)-Dokumentation finden sich Beispiele für die Einrichtung von Tastaturkürzeln für `clang-format`-Plugins.
-4. Führe [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) aus (das unser bereitgestelltes [CPPLINT.cfg](https://github.com/monero-project/kovri/blob/master/CPPLINT.cfg) nutzt), um alle Probleme zu erfassen, die von clang-format nicht erkannt wurden
+4. Führe [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) aus (das unser bereitgestelltes [CPPLINT.cfg](https://github.com/byterubpay/kovri/blob/master/CPPLINT.cfg) nutzt), um alle Probleme zu erfassen, die von clang-format nicht erkannt wurden
 ```bash
 $ cd kovri/ && cpplint Quelle/Pfad/zu/meiner/Datei && [bearbeite die Datei manuell, um Fehlerbehebungen durchzuführen]
 ```
@@ -64,7 +64,7 @@ Um deine Arbeit beizusteuern, gehe bitte wie folgt vor:
    - Der Hauptteil des Pull-Requests sollte eine genaue Beschreibung dessen enthalten, was der Patch macht, und (gegebenenfalls) eine Rechtfertigung/Begründung des Patches liefern. Du solltest Verweise auf jegliche Diskussionen, wie etwa andere Issues oder Chats auf IRC, beifügen
 
 ## Vorschläge
-Um einen Vorschlag einzubringen, sieh dir bitte zunächst unsere [offenen Issues](https://github.com/monero-project/kovri/issues) nach bestehenden Vorschlägen durch. Falls das, was du vorschlägst, nicht enthalten ist, [öffne ein neues Issue](https://github.com/monero-project/kovri/issues/new).
+Um einen Vorschlag einzubringen, sieh dir bitte zunächst unsere [offenen Issues](https://github.com/byterubpay/kovri/issues) nach bestehenden Vorschlägen durch. Falls das, was du vorschlägst, nicht enthalten ist, [öffne ein neues Issue](https://github.com/byterubpay/kovri/issues/new).
 
 Obwohl unser C4 vorschreibt, dass wir alles mergen, bitten wir darum, dass du aus den folgenden Gründen einen Vorschlag eröffnest:
 
@@ -119,8 +119,8 @@ Das Folgende ist ein Modellvorschlag für den QS-Arbeitsablauf. Obwohl der Ablau
 
 ## Phase 1: Grundlegende Überprüfung
 
-- Gehe offene Issues über unseren [Issue-Tracker](https://github.com/monero-project/kovri/issues/) durch
-- Sieh unseren [Vulnerability Response Process](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) durch
+- Gehe offene Issues über unseren [Issue-Tracker](https://github.com/byterubpay/kovri/issues/) durch
+- Sieh unseren [Vulnerability Response Process](https://github.com/byterubpay/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) durch
 - Der gesamte Code muss unseren Beitragsrichtlinien entsprechen
 - Notiere Bereiche, die Verbesserung bedürfen (gedanklich oder im Code)
 - Erstelle TODOs und weise sie, wenn möglich, zu

@@ -1,7 +1,7 @@
 (от переводчика. Смысл может быть передан не совсем корректно, т.к. переводчик не обладает практическим опытом совместной разработки. Все желающие прилашаются к редактированию)
 
 ## Гарантия качества
-- Смотрите наше руководство [Quality Assurance](https://github.com/monero-project/kovri-docs/blob/master/i18n/ru/quality.md), чтобы получить представление о предлагаемом процессе работы.
+- Смотрите наше руководство [Quality Assurance](https://github.com/byterubpay/kovri-docs/blob/master/i18n/ru/quality.md), чтобы получить представление о предлагаемом процессе работы.
 
 ## Соглашение
 - Мы стремимся к полному соблюдению соглашений C++11/14; без колебаний используйте их в своей работе
@@ -11,7 +11,7 @@
 Чтобы внести свой вклад выполните следующее:
 
 1. Скопируйте (fork) Kovri
-2. Прочтите наше [руководство по стилю](https://github.com/monero-project/kovri-docs/blob/master/i18n/ru/style.md)
+2. Прочтите наше [руководство по стилю](https://github.com/byterubpay/kovri-docs/blob/master/i18n/ru/style.md)
 3. Создайте [topic branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 4. [**Подпишите**](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) ваш(и) commit
 5. Отправьте pull-request в ветку ```master```
@@ -23,7 +23,7 @@
    - Содержание pull request должно содержать точное описание того, что делает исправление и предоставлять обоснование\доводы этого исправления (при необходимости). Вы должны включить ссылки на любые обсуждения, такие как другие тикеты (tickets) или чаты в IRC.
 
 ## Предложения (Proposals)
-Перед внесением предложения, пожалуйста просмотрите [open issues](https://github.com/monero-project/kovri/issues) на предмет существующих предложений. Если вашего предложения там нет, то [создайте новое](https://github.com/monero-project/kovri/issues/new).
+Перед внесением предложения, пожалуйста просмотрите [open issues](https://github.com/byterubpay/kovri/issues) на предмет существующих предложений. Если вашего предложения там нет, то [создайте новое](https://github.com/byterubpay/kovri/issues/new).
 
 Несмотря на то что наш C4 диктует нам объединять(merge) все, мы просим вас создать предложение по следующим причинам:
 

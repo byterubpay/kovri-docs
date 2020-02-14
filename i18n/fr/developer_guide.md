@@ -3,19 +3,19 @@
 - Il est aussi vivement recommandé d'utiliser la bibliothèque standard et les bibliothèques de dépendances autant que possible
 
 ## Réponse aux Vulnérabilités
-- Notre [Processus de Réponse aux Vulnérabilités](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourage les divulgations responsables
+- Notre [Processus de Réponse aux Vulnérabilités](https://github.com/byterubpay/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourage les divulgations responsables
 - Nous sommes également disponible à travers [HackerOne](https://hackerone.com/monero)
 
 # Style
 1. Lisez le [Guide de Style C++ de Google](https://google.github.io/styleguide/cppguide.html) (particulièrement pour ce qui est du *non-formatting*)
    - Pour de la programmation bash, lisez le [Guide de Style Shell de Google](https://github.com/google/styleguide/blob/gh-pages/shell.xml)
-2. Lancez [clang-format](http://clang.llvm.org/docs/ClangFormat.html) avec `-style=file` (ce qui utilise notre fichier format [.clang-format](https://github.com/monero-project/kovri/blob/master/.clang-format))
+2. Lancez [clang-format](http://clang.llvm.org/docs/ClangFormat.html) avec `-style=file` (ce qui utilise notre fichier format [.clang-format](https://github.com/byterubpay/kovri/blob/master/.clang-format))
 ```bash
 $ cd kovri/ && clang-format -i -style=file src/path/to/my/file
 ```
 3. Pour les fichiers avec un mélange de travail (existant + nouveau), lancez [clang-format](http://clang.llvm.org/docs/ClangFormat.html) sélectivement uniquement sur les lignes directement liées au nouveautés.
   - Voir les documentation de [vim](http://clang.llvm.org/docs/ClangFormat.html#vim-integration) et [emacs](http://clang.llvm.org/docs/ClangFormat.html#emacs-integration) pour des examples de configuration de *keybindings* pour les plugins `clang-format`.
-4. Lancez [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) (qui utilise notre fichier [CPPLINT.cfg](https://github.com/monero-project/kovri/blob/master/CPPLINT.cfg)) pour capturer tous les problèmes qui ont été manqués par *clang-format*
+4. Lancez [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) (qui utilise notre fichier [CPPLINT.cfg](https://github.com/byterubpay/kovri/blob/master/CPPLINT.cfg)) pour capturer tous les problèmes qui ont été manqués par *clang-format*
 ```bash
 $ cd kovri/ && cpplint src/path/to/my/file && [éditez le fichier manuellement pour résoudre les problèmes détectés]
 ```
@@ -64,7 +64,7 @@ Pour soumettre vos contributions, veuillez procéder de la manière suivante:
    - Le corps de la *pull request* doit contenir une description précise du but du patch et doit fournir une justification / un raisonnement (si nécessaire). Incluez les références aux discussions, comme les tickets ou chats IRC.
 
    ## Propositions
-   Pour contribuer à une proposition, veuillez d'abord vérifier notre [liste d'*issues* existantes](https://github.com/monero-project/kovri/issues). Si ce que vous proposez n'y est pas encore, alors [ouvrez une nouvelle *issue*](https://github.com/monero-project/kovri/issues/new).
+   Pour contribuer à une proposition, veuillez d'abord vérifier notre [liste d'*issues* existantes](https://github.com/byterubpay/kovri/issues). Si ce que vous proposez n'y est pas encore, alors [ouvrez une nouvelle *issue*](https://github.com/byterubpay/kovri/issues/new).
 
    Même si notre C4 nous dicte de tout merger, nous vous demandons d'ouvrir une proposition pour les raisons suivantes :
 
@@ -119,7 +119,7 @@ Ce qui suit est une proposition de procédure pour la QA. Bien que linéaire de 
 
 ## Étape 1 : Revue de base
 
-- Passez en revue les problèmes ouverts (*open issues*) sur notre [*Tracker d'Issues*](https://github.com/monero-project/kovri/issues/)
+- Passez en revue les problèmes ouverts (*open issues*) sur notre [*Tracker d'Issues*](https://github.com/byterubpay/kovri/issues/)
 - Lisez notre [Processus de Réponse à toute Vulnerabilité](https://github.com/anonimal/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md)
 - Le code doit respecter nos lignes directrices de contribution
 - Notez les domaines qui doivent être améliorés (mentalement ou dans le code)

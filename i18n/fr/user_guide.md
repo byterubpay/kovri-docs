@@ -8,7 +8,7 @@
 Notes:
 
 - Si vous n'enregistrez pas votre port, Kovri va aléatoirement en générer un nouveau à chaque démarrage (vous avez aussi le choix d'affecter le port de l'option `--port` à chaque démarrage).
-- Si vous n'avez pas accès à votre NAT, référez-vous au [guide de compilation](https://github.com/monero-project/kovri-docs/blob/master/i18n/fr/building.md) relatif à votre système d'exploitation.
+- Si vous n'avez pas accès à votre NAT, référez-vous au [guide de compilation](https://github.com/byterubpay/kovri-docs/blob/master/i18n/fr/building.md) relatif à votre système d'exploitation.
 - **Ne partagez pas votre numéro de port avec n'importe qui car cela affecterait votre anonymat!**
 
 ## Etape 2. (Recommandé) Sécurité Opérationnelle
@@ -58,9 +58,9 @@ Exemple :
 
 ## Etape 5. (Optionnelle) Inscrire votre nouveau [eepsite](https://getmonero.org/resources/moneropedia/eepsite)
 
-**Stop ! Tant que [#498](https://github.com/monero-project/kovri/issues/498) n'est pas résolu, n'envisagez d'inscrire votre service qu'avec Kovri and *pas* stats.i2p !**
+**Stop ! Tant que [#498](https://github.com/byterubpay/kovri/issues/498) n'est pas résolu, n'envisagez d'inscrire votre service qu'avec Kovri and *pas* stats.i2p !**
 
-- Ouvrir une nouvelle demande avec `[Subscription Request] votre-hôte.i2p` (remplacez `votre-hôte.i2p` avec le nom d'hôte de votre choix) sur le [*Tracker d'Issues*](https://github.com/monero-project/kovri/issues/)
+- Ouvrir une nouvelle demande avec `[Subscription Request] votre-hôte.i2p` (remplacez `votre-hôte.i2p` avec le nom d'hôte de votre choix) sur le [*Tracker d'Issues*](https://github.com/byterubpay/kovri/issues/)
 - Dans le corp de votre demande, collez le contenu de votre fichier `.txt` publique mentionné dans l'étape précédente
 - Après revue, vous ajouterez votre hôte ratifierez votre adhésion
 - Terminé !
@@ -91,7 +91,7 @@ Remarques :
 
 ## Etape 9. Amusez-vous!
 - En savoir plus à propos de Kovri dans le [Moneropedia](https://getmonero.org/resources/moneropedia/kovri.html).
-- Ouvrez une requête de fonctionnalité ou rapportez un bug dans notre [issues tracker](https://github.com/monero-project/kovri/issues)
+- Ouvrez une requête de fonctionnalité ou rapportez un bug dans notre [issues tracker](https://github.com/byterubpay/kovri/issues)
 - En savoir plus à propos du réseau I2P sur le [site java I2P](https://geti2p.net/en/docs)
 
 # Les options de conteneurs
@@ -103,7 +103,7 @@ Sur un système Linux, utilisez snapcraft pour un déploiement simplifié.
 ### Etape 1. Obtenez le dépot des sources Kovri
 
 ```bash
-$ git clone --recursive https://github.com/monero-project/kovri
+$ git clone --recursive https://github.com/byterubpay/kovri
 ```
 
 ### Etape 2. Installez snapcraft

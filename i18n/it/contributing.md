@@ -1,5 +1,5 @@
 ## Garanzia di qualità
-- Leggi [Quality Assurance](https://github.com/monero-project/kovri-docs/blob/master/i18n/it/quality.md) per farti un'idea riguardo le nostre attività.
+- Leggi [Quality Assurance](https://github.com/byterubpay/kovri-docs/blob/master/i18n/it/quality.md) per farti un'idea riguardo le nostre attività.
 
 ## Conformità
 - Puntiamo alla completa conformità con C++11/14; utilizzalo liberamente per svolgere il tuo lavoro.
@@ -9,7 +9,7 @@
 Per inviare i tuoi contributi, ti chiediamo di procedere con la seguente modalità:
 
 1. Fork Kovri
-2. Leggi la nostra [style guide](https://github.com/monero-project/kovri-docs/blob/master/i18n/it/style.md)
+2. Leggi la nostra [style guide](https://github.com/byterubpay/kovri-docs/blob/master/i18n/it/style.md)
 3. Crea un [topic branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 4. [**Firma**](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) i tuoi commit.
 5. Invia una pull-request al branch ```master```
@@ -21,7 +21,7 @@ Per inviare i tuoi contributi, ti chiediamo di procedere con la seguente modalit
    - Il corpo della richiesta pull dovrebbe contenere una descrizione dettagliata del funzionamento della specifica patch e della motivazione/giustificazione per la sua introduzione (se necessaria). Dovresti includere i riferimenti relativi a qualsiasi discussione come altri ticket o chat in IRC.
 
 ## Proposte
-Prima di inviare una proposta fai riferimento a [issue aperte](https://github.com/monero-project/kovri/issues) per controllare se sia già presente. Nel caso in cui non ci sia procedi pure ad [aprirne una nuova](https://github.com/monero-project/kovri/issues/new).
+Prima di inviare una proposta fai riferimento a [issue aperte](https://github.com/byterubpay/kovri/issues) per controllare se sia già presente. Nel caso in cui non ci sia procedi pure ad [aprirne una nuova](https://github.com/byterubpay/kovri/issues/new).
 
 Nonostante i nostri dettami C4 che prevedono di unificare il tutto, ti chiediamo di iviare una proposta per i motivi seguenti:
 

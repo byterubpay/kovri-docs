@@ -2,8 +2,8 @@
 
 ## Erste Schritte
 
-1. Folge den Anleitungen zum Kompilieren und/oder Installieren von [Kovri](https://github.com/monero-project/kovri) & [Monero](https://github.com/monero-project/monero)
-2. Sieh das [Benutzerhandbuch](https://github.com/monero-project/kovri-docs/blob/master/i18n/de/user_guide.md) in der Sprache deiner Wahl durch
+1. Folge den Anleitungen zum Kompilieren und/oder Installieren von [Kovri](https://github.com/byterubpay/kovri) & [Monero](https://github.com/byterubpay/monero)
+2. Sieh das [Benutzerhandbuch](https://github.com/byterubpay/kovri-docs/blob/master/i18n/de/user_guide.md) in der Sprache deiner Wahl durch
 3. Konfiguriere Kovri-Server- und -Client-Tunnel für die Verbindung mit `monerod`-Nodes über das I2P-Netzwerk
 
 ## Kovri-Server-Tunnel
@@ -23,7 +23,7 @@ keys = xmr-p2p-keys.dat
 ;black_list =
 ```
 
-Diese Konfiguration öffnet einen Kovri-Listener auf dem standardmäßigen Testnet-P2P-Port von `monerod`. Lese als nächstes im [Benutzerhandbuch](https://github.com/monero-project/kovri-docs/blob/master/i18n/de/user_guide.md), wie man die Base32-Zieladresse erhält.
+Diese Konfiguration öffnet einen Kovri-Listener auf dem standardmäßigen Testnet-P2P-Port von `monerod`. Lese als nächstes im [Benutzerhandbuch](https://github.com/byterubpay/kovri-docs/blob/master/i18n/de/user_guide.md), wie man die Base32-Zieladresse erhält.
 
 Falls du bereits deinen Kovri-Router gestartet hast, führe `$ kill -HUP $(pgrep kovri)` aus, um den neuen Tunnel zu laden. Eine drastischere Möglichkeit besteht darin, einen harten Neustart durchzuführen, durch Stoppen und Starten von Kovri.
 

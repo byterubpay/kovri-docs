@@ -7,12 +7,12 @@ Kovris Testnet liegt momentan in einer Reihe von Docker-Containern und -Images, 
 ## Voraussetzungen
 
 - Linux-Entwicklungsumgebung (Linux wird derzeit unterstützt)
-   - In der Kovri-[README](https://github.com/monero-project/kovri-docs/blob/master/i18n/de/README.md#kompilierung) findet sich eine Liste an Kompilierungsabhängigkeiten
+   - In der Kovri-[README](https://github.com/byterubpay/kovri-docs/blob/master/i18n/de/README.md#kompilierung) findet sich eine Liste an Kompilierungsabhängigkeiten
 - [Docker](https://www.docker.com/)
    - Der kompilierende Nutzer muss die Berechtigungen haben, Docker zu nutzen (zur Docker-Gruppe hinzugefügt sein, zum Beispiel)
 - Ein geklontes Repository
 ```bash
-$ git clone --recursive https://github.com/monero-project/kovri
+$ git clone --recursive https://github.com/byterubpay/kovri
 ```
 
 ## Schritt 1: Das Testnet erstellen

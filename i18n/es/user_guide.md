@@ -9,7 +9,7 @@ Notas:
 
 - **No compartas con nadie tu puerto, porque puede comprometer tu anonimato!!**
 - Si no guardas el puerto, Kovri va a generar uno de forma aleatorio cada vez que se inicie (también puedes elegir pasar el puerto con el parámetro `--port` en cada inicio).
-- Si no tienes acceso a tu NAT, mira las instrucciones en [Compilando](https://github.com/monero-project/kovri-docs/blob/master/i18n/es/building.md) para tu OS.
+- Si no tienes acceso a tu NAT, mira las instrucciones en [Compilando](https://github.com/byterubpay/kovri-docs/blob/master/i18n/es/building.md) para tu OS.
 
 ## Paso 2. Configurar Kovri
 
@@ -60,7 +60,7 @@ Notas:
 
 ## Paso 7. ¡Disfruta!
 - Lee más de Kovri en la [Moneropedia](https://getmonero.org/resources/moneropedia/kovri.html).
-- Abre una petición de nueva característica, o reporta bugs en nuestro [issues tracker](https://github.com/monero-project/kovri/issues)
+- Abre una petición de nueva característica, o reporta bugs en nuestro [issues tracker](https://github.com/byterubpay/kovri/issues)
 - Aprende más de la red I2P en el [sitio de java I2P](https://geti2p.net/en/docs)
 
 # Alternativamente, Docker

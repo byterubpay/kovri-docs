@@ -4,7 +4,7 @@ Følgende er en foreslået model for QA-workflow. Selvom det er lineært i natur
 
 ## Fase 1: Grundlæggende gennemgang
 
-- Gennemgå open issues på vores [Issue Tracker](https://github.com/monero-project/kovri/issues/)
+- Gennemgå open issues på vores [Issue Tracker](https://github.com/byterubpay/kovri/issues/)
 - Gennemgå vores [Vulnerability Response Process](https://github.com/anonimal/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md)
 - Alt kode skal overholde vores bidragsretningslinjer
 - Bemærk områder, der skal forbedres 

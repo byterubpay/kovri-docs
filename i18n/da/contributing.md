@@ -1,7 +1,7 @@
 ## Bidrag
 
 ## Kvalitets sikring
-- Se vores [Kvalitets sikring](https://github.com/monero-project/kovri-docs/blob/master/i18n/da/quality.md) 
+- Se vores [Kvalitets sikring](https://github.com/byterubpay/kovri-docs/blob/master/i18n/da/quality.md) 
 Guide til at få en idé om foreslået arbejdsgang
 
 ## Overholdelse
@@ -12,7 +12,7 @@ Guide til at få en idé om foreslået arbejdsgang
 For at bidrage med dit arbejde, venligst fortsæt med følgende:
 
 1. Fork Kovri
-2. Læs vores [style guide](https://github.com/monero-project/kovri-docs/blob/master/i18n/da/style.md)
+2. Læs vores [style guide](https://github.com/byterubpay/kovri-docs/blob/master/i18n/da/style.md)
 3. Opret en [topic branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 4. [**Signer**](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) dine commit(s)
 5. Send en pull-request til branch ```master```
@@ -24,7 +24,7 @@ For at bidrage med dit arbejde, venligst fortsæt med følgende:
 - Kroppen af pull requesten burde indeholde en akkurat beskrivelse af hvad opdatering gør og giv begrundelse for denne opdatering (når passende). Du burde inkludere referencer til hvilken som helst diskussion som andre tickets eller chatte på IRC.
 
 ## Oplæg
-For at bidrage med oplæg, venligst gennemgå vores [open issues](https://github.com/monero-project/kovri/issues) for eksisterende oplæg. Hvis hvad du foreslår ikke er der, så [open a new issue](https://github.com/monero-project/kovri/issues/new).
+For at bidrage med oplæg, venligst gennemgå vores [open issues](https://github.com/byterubpay/kovri/issues) for eksisterende oplæg. Hvis hvad du foreslår ikke er der, så [open a new issue](https://github.com/byterubpay/kovri/issues/new).
 
 Selvom vores C4 dikterer at vi merger alting, så spørge vi om du åbner et oplæg for følgende grunde:
 

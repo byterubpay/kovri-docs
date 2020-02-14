@@ -9,7 +9,7 @@ Note:
 
 - **Non condividere il numero della porta con nessuno altrimenti il tuo anonimato sarà  compromesso!**
 - Se non salvi la porta, Kovri ne rigenererà  una nuova ad ogni avvio (puoi anche indicare la porta con `--port` ad ogni avvio).
-- Se non hai accesso al tuo NAT, segui le istruzioni in [BUILDING](https://github.com/monero-project/kovri-docs/blob/master/i18n/it/building.md) per il tuo Sistema Operativo.
+- Se non hai accesso al tuo NAT, segui le istruzioni in [BUILDING](https://github.com/byterubpay/kovri-docs/blob/master/i18n/it/building.md) per il tuo Sistema Operativo.
 
 ## Step 2. (Consigliato) Sicurezza operazionale
 - Valuta la creazione di un utente nel SO designato per l'utilizzo di ```kovri``` e usa kovri esclusivamente con quello
@@ -67,7 +67,7 @@ Note:
 
 ## Step 8. Buon divertimento!
 - Leggi di più su Kovri nella [Moneropedia](https://getmonero.org/resources/moneropedia/kovri.html).
-- Apri la tua richiesta per nuove feature o segnala un bug nel nostro [issues tracker](https://github.com/monero-project/kovri/issues)
+- Apri la tua richiesta per nuove feature o segnala un bug nel nostro [issues tracker](https://github.com/byterubpay/kovri/issues)
 - Approfondisci l'argomento Network I2P sul [sito java I2P](https://geti2p.net/en/docs)
 
 # Opzioni Container
@@ -76,7 +76,7 @@ Note:
 Su sistemi Linux, puoi sfruttare Snapcraft per una facile implementazione.
 
 ## Step 1. Scarica la repository Kovri
-```$ git clone --recursive https://github.com/monero-project/kovri```
+```$ git clone --recursive https://github.com/byterubpay/kovri```
 
 ## Step 2. Installa snapcraft
 - Si consiglia di fare riferimento al package manager per snapcraft e [snapd](https://snapcraft.io/docs/core/install) della tua distribution

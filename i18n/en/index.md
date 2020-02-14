@@ -6,4 +6,4 @@ Essentially, Kovri *covers* an application's internet traffic to make it anonymo
 
 A lightweight and security-focused router, Kovri is fully compatible with the I2P network. An alpha version of Kovri is in the works.
 
-Watch development via the [Kovri repo](https://github.com/monero-project/kovri#downloads) and [join the community](https://github.com/monero-project/kovri#contact).
+Watch development via the [Kovri repo](https://github.com/byterubpay/kovri#downloads) and [join the community](https://github.com/byterubpay/kovri#contact).

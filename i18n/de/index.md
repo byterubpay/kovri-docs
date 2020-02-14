@@ -6,4 +6,4 @@ Im Wesentlichen *ummantelt* Kovri den Internetverkehr einer Anwendung mit dem Zi
 
 Als schlanker und sicherheitsorientierter Router ist Kovri vollständig mit dem I2P-Netzwerk kompatibel. Eine Alpha-Version von Kovri ist in Arbeit.
 
-Beobachte die Entwicklung über das [Kovri-Repo](https://github.com/monero-project/kovri#downloads) und [werde Teil der Community](https://github.com/monero-project/kovri#contact).
+Beobachte die Entwicklung über das [Kovri-Repo](https://github.com/byterubpay/kovri#downloads) und [werde Teil der Community](https://github.com/byterubpay/kovri#contact).

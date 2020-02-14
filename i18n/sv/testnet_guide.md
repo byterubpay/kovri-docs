@@ -8,13 +8,13 @@ Detta möjliggör privat nätverkstestning och -övervakning utan anslutning til
 ## Förutsättningar
 
 - Linux utvecklingsmiljö (Linux stöds för närvarande)
-   - Se kovris [README](https://github.com/monero-project/kovri#building) för en lista av bygg-beroenden
+   - Se kovris [README](https://github.com/byterubpay/kovri#building) för en lista av bygg-beroenden
 - [Docker](https://www.docker.com/)
    - Användaren som ska bygga måste ha behörighet att använda Docker (tillagd i gruppen docker, till exempel)
 - Ett klonat kodförråd
 
 ```bash
-$ git clone --recursive https://github.com/monero-project/kovri
+$ git clone --recursive https://github.com/byterubpay/kovri
 ```
 
 ## Steg 1: Skapa testnet

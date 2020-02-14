@@ -8,12 +8,12 @@ This allows for private network testing and monitoring without the need to conne
 ## Prerequisites
 
 - Linux development environment (Linux is currently supported)
-   - See the kovri [README](https://github.com/monero-project/kovri#building) for a list of build dependencies
+   - See the kovri [README](https://github.com/byterubpay/kovri#building) for a list of build dependencies
 - [Docker](https://www.docker.com/)
    - The build user must have permissions to use Docker (added to the docker group, for example)
 - A cloned repository
 ```bash
-$ git clone --recursive https://github.com/monero-project/kovri
+$ git clone --recursive https://github.com/byterubpay/kovri
 ```
 
 ## Step 1: Create the testnet

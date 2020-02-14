@@ -38,7 +38,7 @@ Kovri est un routeur léger et axé sur la sécurité. Il est totalement compati
 ### Qui développe Kovri ?
 Kovri est un projet open-source, ce qui veut dire qu'il est entièrement dépendant des contributions de la communauté. Le développeur principal du projet est [anonimal](https://github.com/anonimal), que vous pouvez contacter via les canaux IRC [#kovri](irc://chat.freenode.net/#kovri) et [#kovri-dev](irc://chat.freenode.net/#kovri-dev), et via son [compte Twitter](https://twitter.com/0x914409F1).
 
-Kovri est développé sous l'égide du [Projet Monero](https://github.com/monero-project). C'est un autre projet open-source, qui développe la [Pièce Monero](https://getmonero.org) et [Open Alias](https://openalias.org). La relation entre le Projet Monero et Kovri est mutuellement bénéfique dans le sens où Kovri va s'intégrer dans le réseau Monero et Monero contribue au projet Kovri en fournissant des développeurs et des ressources.
+Kovri est développé sous l'égide du [Projet Monero](https://github.com/byterubpay). C'est un autre projet open-source, qui développe la [Pièce Monero](https://getmonero.org) et [Open Alias](https://openalias.org). La relation entre le Projet Monero et Kovri est mutuellement bénéfique dans le sens où Kovri va s'intégrer dans le réseau Monero et Monero contribue au projet Kovri en fournissant des développeurs et des ressources.
 
 ### En quoi Kovri va-t-il aider Monero ?
 Le Monero est une crypto-monnaie sécurisée, privée, intraçable, fongible et confidentielle par défaut. Il utilise les technologies suivantes pour cacher respectivement le destinataire, la quantité envoyée et l'expéditeur : des adresses furtives, signatures confidentielles de cercle (*RingCT*) et les signatures de cercle (*Ring Signatures*). Des vulnérabilités potentielles de Monero pourraient laisser fuiter l'adresse IP qui émet la transaction.
@@ -75,7 +75,7 @@ Deuxièmement, bien que l'implémentation en Java soit bonne, elle s'accompagne 
 - De promener votre chien et de payer vos impôts
 
 ### Quel est l'état actuel de développement de Kovri ?
-Nous travaillons activement sur le développement de Kovri et celui-ci est en phase Alpha. Kovri *n'est pas encore* intégré dans Monero, mais, en plus de certaines fonctionnalités de base, nous sommes en train de développer un [client](https://github.com/monero-project/kovri/issues/351) et une [API cœur](https://github.com/monero-project/kovri/issues/350) visant à être utilisés par Monero ou d'autres applications.
+Nous travaillons activement sur le développement de Kovri et celui-ci est en phase Alpha. Kovri *n'est pas encore* intégré dans Monero, mais, en plus de certaines fonctionnalités de base, nous sommes en train de développer un [client](https://github.com/byterubpay/kovri/issues/351) et une [API cœur](https://github.com/byterubpay/kovri/issues/350) visant à être utilisés par Monero ou d'autres applications.
 
 Mais le fait que nous soyons en Alpha ne veut pas dire que vous ne pouvez pas utiliser Kovri. Vous pouvez déjà utiliser Kovri pour vous connecter au réseau I2P, surfer sur les *eepsites*, vous connecter sur IRC et faire tourner des *tunnels client* et *tunnels serveur*.
 
@@ -83,7 +83,7 @@ Mais le fait que nous soyons en Alpha ne veut pas dire que vous ne pouvez pas ut
 La version alpha sera disponible (nous l'espérons !!) avant fin 2017. Une fois que nous serons en alpha, le travail commencera immédiatement sur la version beta, qui nécessitera : une API complètement implémentée, la résolution des problèmes principaux d'assurance qualité et la résolution des différents bugs.
 
 ### Sur quoi se focalise en ce moment l'équipe de développement ?
-Nous travaillons actuellement sur tous les points listés sur notre [système de suivi](https://github.com/monero-project/kovri/issues/). La plupart de ce qui doit être achevé avant de sortir la version alpha officielle y est listé.
+Nous travaillons actuellement sur tous les points listés sur notre [système de suivi](https://github.com/byterubpay/kovri/issues/). La plupart de ce qui doit être achevé avant de sortir la version alpha officielle y est listé.
 
 ### Kovri est-il déjà utilisable et quel niveau de vie privée propose-t-il actuellement ?
 Kovri est utilisable. Sur `./kovri --help`, vous pouvez voir tout ce que Kovri offre actuellement. Kovri n'a pour le moment aucune interaction avec Monero. En ce qui concerne la vie privée, nous avons résolu de nombreux problèmes depuis le début, mais nous vous demandons de garder en tête que nous ne sommes qu'en Alpha.
@@ -93,13 +93,13 @@ Il y a encore beaucoup de code à écrire et à tester, donc ne vous attendez pa
 N'hésitez pas à vous mettre dans le rôle d'un développeur et à jouer avec Kovri, mais seulement si *ne pas* être anonyme ne peut pas vous mettre en danger, étant donné que le risque de ne pas être complètement anonyme existe comme nous ne sommes qu'en Alpha (ce n'est pas unique à Kovri).
 
 ### Comment puis-je contacter les développeurs de Kovri ?
-Visitez notre [README](https://github.com/monero-project/kovri/blob/master/README.md).
+Visitez notre [README](https://github.com/byterubpay/kovri/blob/master/README.md).
 
 ## Kovri vs i2pd
 
 ### Pourquoi devrais-je utiliser Kovri plutôt que i2pd ?
 
-- La sécurité : Nous nous focalisons sur la sécurisation de notre logiciel ; nous ne voulons pas nous [précipiter](https://github.com/monero-project/kovri/issues/65) juste pour sortir une version au plus vite.
+- La sécurité : Nous nous focalisons sur la sécurisation de notre logiciel ; nous ne voulons pas nous [précipiter](https://github.com/byterubpay/kovri/issues/65) juste pour sortir une version au plus vite.
 - La qualité : Vous soutenez un projet dont la qualité du code résistera à l'épreuve du temps. Cela inclut tous les aspects de la maintenabilité du code.
 - Monero : Vous soutiendrez une crypto-monnaie qui se focalise sur le respect de la vie privée et de l'anonymat.
 
@@ -108,7 +108,7 @@ Visitez notre [README](https://github.com/monero-project/kovri/blob/master/READM
 - Nous avons un [Forum de financements](https://forum.getmonero.org/8/funding-required) pour le développement et l'ajout de fonctionnalités.
 - Nous nous focalisons sur la création d'un routeur I2P qui est [sécurisé par défaut](http://www.openbsd.org/security.html), facile à maintenir et qui a de grandes chances d'être examiné et vérifié par la communauté. Cela a le désavantage que nous supprimons les fonctionnalités les moins utilisées par rapport aux autres routeurs, mais les fonctionnalités principales et l'API seront complètes et intactes. En créant un routeur plus léger, simple et efficace, les développeurs et chercheurs auront plus de temps pour auditer la sécurité et pour questionner le design I2P et les spécifications.
 - Nous implémentons une API intuitive et facile à utiliser pour n'importe quelle application qui veut se connecter et utiliser le réseau I2P. C'est notamment le cas pour Monero.
-- Nous fournissons à la fois aux utilisateurs et aux développeurs une [assurance qualité](https://github.com/monero-project/kovri/issues/58) et un [modèle de développement](https://github.com/monero-project/kovri-docs/blob/master/i18n/en/contributing.md) dans le but de fournir des meilleurs logiciels pour tout le monde.
+- Nous fournissons à la fois aux utilisateurs et aux développeurs une [assurance qualité](https://github.com/byterubpay/kovri/issues/58) et un [modèle de développement](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/contributing.md) dans le but de fournir des meilleurs logiciels pour tout le monde.
 - Nous allons implémenter des options alternatives de *reseeding* pour que les utilisateurs puissent utiliser les [Pluggable Transports](https://www.torproject.org/docs/pluggable-transports.html.en) au lieu d'HTTPS pour le *reseed*.
 - Nous comptons implémenter des fonctionnalités avancées (*mode caché* et *trafic entrant désactivé*) pour fournir l'anonymat à ceux qui vivent dans des pays aux conditions extrêmes ou ceux qui sont derrière un firewall de type NAT ou DS-Lite.
 - Nous créerons toujours un environnement prône à la collaboration.
@@ -132,13 +132,13 @@ Ces actions ont offensé de nombreuses personnes dans la communauté I2P, y comp
 
 À l'automne 2015, anominal est arrivé et, ne voulant pas voir le travail de tout le monde gaspillé, il a relancé le projet en contribuant et en le reprenant en main. Une invitation ouverte pour se rencontrer a été envoyée à tous les développeurs encore actifs pour discuter du futur d'i2pd. L'auteur initial d'i2pd ne s'est pas présenté mais le fait de se réunir lui a tellement déplu qu'il a [riposté](https://github.com/PurpleI2P/i2pd/issues/279) et recommencé à travailler sur GitHub - mais cette fois sur une branche `openssl` (qui s'est avérée être le repo Bitbucket) au lieu de la branche `master` sur laquelle le reste de la communauté travaillait.
 
-En se rendant compte que ce type de comportement ne ferait que nuire au réseau I2P et au projet, les autres développeurs ont continué à tenir des [réunions importantes](https://github.com/monero-project/kovri/issues/47) et à mettre en place les fondements de ce qu'est maintenant Kovri.
+En se rendant compte que ce type de comportement ne ferait que nuire au réseau I2P et au projet, les autres développeurs ont continué à tenir des [réunions importantes](https://github.com/byterubpay/kovri/issues/47) et à mettre en place les fondements de ce qu'est maintenant Kovri.
 
 ## Utiliser Kovri
 
 ### J'ai trouvé une vulnérabilité, j'ai trouvé un bug, que dois-je faire ?
-- Vulnérabilité : visitez notre [README](https://github.com/monero-project/kovri/blob/master/README.md)
-- Bugs : visitez notre [Guide de développement](https://github.com/monero-project/kovri-docs/blob/master/i18n/fr/developer_guide.md)
+- Vulnérabilité : visitez notre [README](https://github.com/byterubpay/kovri/blob/master/README.md)
+- Bugs : visitez notre [Guide de développement](https://github.com/byterubpay/kovri-docs/blob/master/i18n/fr/developer_guide.md)
 
 ### Pourquoi mes logs montrent une heure différente de mon fuseau horaire ?
 Les logs sont enregistrés en UTC pour protéger votre anonymat. En utilisant UTC, vous êtes dans une meilleure position pour uploader vos logs et les partager avec les développeurs et la communauté sans porter atteinte à votre anonymat.

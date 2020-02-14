@@ -59,9 +59,9 @@ Beispiel:
 
 ## Schritt 5. (Optional) Registrieren deiner neuen [Eepsite](https://getmonero.org/resources/moneropedia/eepsite)
 
-**Halt! Bis [#498](https://github.com/monero-project/kovri/issues/498) gelöst ist, solltest du deinen Dienst nur bei Kovri registrieren und *nicht* bei stats.i2p!**
+**Halt! Bis [#498](https://github.com/byterubpay/kovri/issues/498) gelöst ist, solltest du deinen Dienst nur bei Kovri registrieren und *nicht* bei stats.i2p!**
 
-- Öffne einen Request mit `[Subscription Request] your-host.i2p` (ersetze your-host.i2p mit deinem gewünschten Hostnamen) im [Kovri-Issue-Tracker](https://github.com/monero-project/kovri/issues)
+- Öffne einen Request mit `[Subscription Request] your-host.i2p` (ersetze your-host.i2p mit deinem gewünschten Hostnamen) im [Kovri-Issue-Tracker](https://github.com/byterubpay/kovri/issues)
 - Füge im Text des Requests den Inhalt deiner öffentlichen, im vorherigen Schritt erwähnten, `.txt`-Datei ein
 - Nach einer Überprüfung werden wir deinen Host hinzufügen und das Abonnement signieren
 - Fertig!
@@ -92,7 +92,7 @@ Hinweise:
 
 ## Schritt 9. Viel Spaß!
 - Lies mehr über Kovri in der [Moneropedia](https://getmonero.org/resources/moneropedia/kovri).
-- Öffne deine Feature-Requests oder melde Bugs in unserem [Issue-Tracker](https://github.com/monero-project/kovri/issues)
+- Öffne deine Feature-Requests oder melde Bugs in unserem [Issue-Tracker](https://github.com/byterubpay/kovri/issues)
 - Lerne mehr über das I2P-Netzwerk auf der [Java-I2P-Website](https://geti2p.net/en/docs)
 
 # Container-Optionen
@@ -104,7 +104,7 @@ Verwende auf Linux-Systemen snapcraft für eine einfache Bereitstellung.
 ### Schritt 1. Das Kovri-Quellen-Repo herunterladen
 
 ```bash
-$ git clone --recursive https://github.com/monero-project/kovri
+$ git clone --recursive https://github.com/byterubpay/kovri
 ```
 
 ### Schritt 2. snapcraft installieren

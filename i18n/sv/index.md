@@ -6,5 +6,5 @@ Enkelt uttryckt så *döljer* Kovri en applikations internet-trafik så att den 
 
 Kovri är en lätthanterad och säkerhetsfokuserad router som är helt kompatibel med I2P-nätverket. En alfaversion av Kovri är på gång.
 
-Följ utvecklingen via [Kovris kodförråd](https://github.com/monero-project/kovri#downloads) och [gå med i communityn](https://github.com/monero-project/kovri#contact).
+Följ utvecklingen via [Kovris kodförråd](https://github.com/byterubpay/kovri#downloads) och [gå med i communityn](https://github.com/byterubpay/kovri#contact).
 

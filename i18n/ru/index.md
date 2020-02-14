@@ -6,4 +6,4 @@
 
 Легкий, ориентированный на безопасность маршрутизатор Kovri полностью совместим с I2P сетью. Alpha версия Kovri находится в работе.
 
-Следите за разработкой в [репозитории Kovri](https://github.com/monero-project/kovri#downloads) и [присоединяйтесь к сообществу](https://github.com/monero-project/kovri#contact).
+Следите за разработкой в [репозитории Kovri](https://github.com/byterubpay/kovri#downloads) и [присоединяйтесь к сообществу](https://github.com/byterubpay/kovri#contact).

@@ -1,11 +1,11 @@
 # Stil
 1. Læs [Google's C++ Style Guide](https://google.github.io/styleguide/cppguide.html) (særligt for ikke-formaterede stil reference)
    - Hvis du programmerer i bash, læs [Google's Shell Style Guide](https://github.com/google/styleguide/blob/gh-pages/shell.xml)
-2. Kør [clang-format](http://clang.llvm.org/docs/ClangFormat.html) med ```-style=file``` (som bruger den vi har udleveret [.clang-format](https://github.com/monero-project/kovri/blob/master/.clang-format))
+2. Kør [clang-format](http://clang.llvm.org/docs/ClangFormat.html) med ```-style=file``` (som bruger den vi har udleveret [.clang-format](https://github.com/byterubpay/kovri/blob/master/.clang-format))
 ```bash
 $ cd kovri/ && clang-format -i -style=file src/path/to/my/file
    ```
-3. Kør [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) (som bruger den vi har udleveret [CPPLINT.cfg](https://github.com/monero-project/kovri/blob/master/CPPLINT.cfg)) til at fange nogle problemer der slap igennem clang-format
+3. Kør [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) (som bruger den vi har udleveret [CPPLINT.cfg](https://github.com/byterubpay/kovri/blob/master/CPPLINT.cfg)) til at fange nogle problemer der slap igennem clang-format
 ```bash
 $ cd kovri/ && cpplint src/path/to/my/file && [edit file manually to apply fixes]
 ```

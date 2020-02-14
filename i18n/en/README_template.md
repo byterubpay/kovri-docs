@@ -1,4 +1,4 @@
-[<img width="300" src="https://static.getmonero.org/images/kovri/logo.png" alt="ˈKoʊvriː" />](https://github.com/monero-project/kovri)
+[<img width="300" src="https://static.getmonero.org/images/kovri/logo.png" alt="ˈKoʊvriː" />](https://github.com/byterubpay/kovri)
 
 1. [To cover, veil, wrap](https://en.wikipedia.org/wiki/Esperanto)
 2. A free, decentralized, anonymity technology based on [I2P](https://getmonero.org/resources/moneropedia/i2p.html)'s open specifications
@@ -12,7 +12,7 @@
 - Want to build and install yourself? [Build instructions below](#building)
 
 ## Multilingual README
-This is a translated version of the Kovri README, the original (in english) is available at: https://github.com/monero-project/kovri/blob/master/README.md
+This is a translated version of the Kovri README, the original (in english) is available at: https://github.com/byterubpay/kovri/blob/master/README.md
 
 ## Downloads
 
@@ -38,7 +38,7 @@ This is a translated version of the Kovri README, the original (in english) is a
 | Type      | Status |
 |-----------|--------|
 | Coverity  | [![Coverity Status](https://scan.coverity.com/projects/7621/badge.svg)](https://scan.coverity.com/projects/7621/)
-| Coveralls | [![Coveralls Status](https://coveralls.io/repos/github/monero-project/kovri/badge.svg?branch=master)](https://coveralls.io/github/monero-project/kovri?branch=master)
+| Coveralls | [![Coveralls Status](https://coveralls.io/repos/github/byterubpay/kovri/badge.svg?branch=master)](https://coveralls.io/github/byterubpay/kovri?branch=master)
 | License   | [![License](https://img.shields.io/badge/license-BSD3-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Building
@@ -84,7 +84,7 @@ Optional:
 **Do *not* use the zip file from github: do a recursive clone only**
 
 ```bash
-$ git clone --recursive https://github.com/monero-project/kovri
+$ git clone --recursive https://github.com/byterubpay/kovri
 $ cd kovri && make release  # see the Makefile for all build options
 $ make install
 ```
@@ -101,17 +101,17 @@ $ docker build -t kovri:latest .
 ```
 
 ## Documentation and Development
-- A [User Guide](https://github.com/monero-project/kovri-docs/blob/master/i18n/en/user_guide.md) is available for all users
-- A [Developer Guide](https://github.com/monero-project/kovri-docs/blob/master/i18n/en/developer_guide.md) is available for developers (please read before opening a pull request)
-- More documentation can be found in your language of choice within the [kovri-docs](https://github.com/monero-project/kovri-docs/) repository
+- A [User Guide](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/user_guide.md) is available for all users
+- A [Developer Guide](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/developer_guide.md) is available for developers (please read before opening a pull request)
+- More documentation can be found in your language of choice within the [kovri-docs](https://github.com/byterubpay/kovri-docs/) repository
 - [Moneropedia](https://getmonero.org/resources/moneropedia/kovri.html) is recommended for all users and developers
 - [Forum Funding System](https://forum.getmonero.org/8/funding-required) to get funded for your work, [submit a proposal](https://forum.getmonero.org/7/open-tasks/2379/forum-funding-system-ffs-sticky)
 - [build.getmonero.org](https://build.getmonero.org/) or monero-build.i2p for detailed build information
-- [repo.getmonero.org](https://repo.getmonero.org/monero-project/kovri) or monero-repo.i2p are alternatives to GitHub for non-push repository access
-- See also [kovri-site](https://github.com/monero-project/kovri-site) and [monero/kovri meta](https://github.com/monero-project/meta)
+- [repo.getmonero.org](https://repo.getmonero.org/byterubpay/kovri) or monero-repo.i2p are alternatives to GitHub for non-push repository access
+- See also [kovri-site](https://github.com/byterubpay/kovri-site) and [monero/kovri meta](https://github.com/byterubpay/meta)
 
 ## Vulnerability Response
-- Our [Vulnerability Response Process](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
+- Our [Vulnerability Response Process](https://github.com/byterubpay/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
 - We are also available via [HackerOne](https://hackerone.com/monero)
 
 ## Contact and Support

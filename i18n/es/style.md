@@ -3,7 +3,7 @@
 ```bash
 $ cpplint src/path/to/my/file
 ```
-3. Inicia [clang-format](http://llvm.org/releases/3.8.0/tools/clang/docs/ClangFormat.html) con ```-style=file``` usando el [.clang-format](https://github.com/monero-project/kovri/blob/master/.clang-format)
+3. Inicia [clang-format](http://llvm.org/releases/3.8.0/tools/clang/docs/ClangFormat.html) con ```-style=file``` usando el [.clang-format](https://github.com/byterubpay/kovri/blob/master/.clang-format)
 ```bash
 $ cd kovri/ && clang-format -i -style=file src/path/to/my/file
 ```

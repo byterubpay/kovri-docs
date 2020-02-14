@@ -3,19 +3,19 @@
 - Please use the standard library and dependency libraries whenever possible
 
 ## Vulnerability Response
-- Our [Vulnerability Response Process](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
+- Our [Vulnerability Response Process](https://github.com/byterubpay/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
 - We are also available via [HackerOne](https://hackerone.com/monero)
 
 ## Style
 1. Read [Google's C++ Style Guide](https://google.github.io/styleguide/cppguide.html) (particularly for non-formatting style reference)
    - If bash programming, read [Google's Shell Style Guide](https://github.com/google/styleguide/blob/gh-pages/shell.xml)
-2. For files containing only new work, run [clang-format](http://clang.llvm.org/docs/ClangFormat.html) with ```-style=file``` (which uses our provided [.clang-format](https://github.com/monero-project/kovri/blob/master/.clang-format))
+2. For files containing only new work, run [clang-format](http://clang.llvm.org/docs/ClangFormat.html) with ```-style=file``` (which uses our provided [.clang-format](https://github.com/byterubpay/kovri/blob/master/.clang-format))
 ```bash
 $ cd kovri/ && clang-format -i -style=file src/path/to/my/file
 ```
 3. For files with mixed (existing + new) work, run [clang-format](http://clang.llvm.org/docs/ClangFormat.html) selectively over only lines directly related to the new work.
    - See [vim](http://clang.llvm.org/docs/ClangFormat.html#vim-integration) and [emacs](http://clang.llvm.org/docs/ClangFormat.html#emacs-integration) documentation for examples of configuring keybindings for `clang-format` plugins.
-4. Run [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) (which uses our provided [CPPLINT.cfg](https://github.com/monero-project/kovri/blob/master/CPPLINT.cfg)) to catch any issues that were missed by clang-format
+4. Run [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) (which uses our provided [CPPLINT.cfg](https://github.com/byterubpay/kovri/blob/master/CPPLINT.cfg)) to catch any issues that were missed by clang-format
 ```bash
 $ cd kovri/ && cpplint src/path/to/my/file && [edit file manually to apply fixes]
 ```
@@ -64,7 +64,7 @@ To contribute your work, please proceed with the following:
    - The body of the pull request should contain an accurate description of what the patch does and should also provide justification/reasoning for the patch (when appropriate). You should include references to any discussions such as other issues or chats on IRC
 
 ## Proposals
-To contribute a proposal, please review our [open issues](https://github.com/monero-project/kovri/issues) for existing proposals. If what you propose is not there, then [open a new issue](https://github.com/monero-project/kovri/issues/new).
+To contribute a proposal, please review our [open issues](https://github.com/byterubpay/kovri/issues) for existing proposals. If what you propose is not there, then [open a new issue](https://github.com/byterubpay/kovri/issues/new).
 
 Even though our C4 dictates that we merge everything, we ask that you open a proposal for the following reasons:
 
@@ -119,8 +119,8 @@ The following is a proposed model for QA workflow. While linear in nature, any p
 
 ## Phase 1: Basic Review
 
-- Review open issues on our [Issue Tracker](https://github.com/monero-project/kovri/issues/)
-- Review our [Vulnerability Response Process](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md)
+- Review open issues on our [Issue Tracker](https://github.com/byterubpay/kovri/issues/)
+- Review our [Vulnerability Response Process](https://github.com/byterubpay/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md)
 - All code must adhere to our contributing guidelines
 - Note areas that need improving (mentally or in code)
 - Create TODO's and assign if possible

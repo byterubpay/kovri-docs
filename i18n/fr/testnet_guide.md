@@ -8,12 +8,12 @@ Cela permet de faire des tests et de la supervision privée sans avoir besoin de
 ## Prérequis
 
 - Environnement de développement Linux (Linux est actuellement supporté)
-   - Voir le [README](https://github.com/monero-project/kovri#building) de Kovri pour une liste de dépendances de compilation
+   - Voir le [README](https://github.com/byterubpay/kovri#building) de Kovri pour une liste de dépendances de compilation
 - [Docker](https://www.docker.com/)
    - L'utilisateur qui compilera doit avoir les droits d'utilisation de Docker (en étant ajouté au groupe Docker par exemple)
 - Un dépôt cloné
 ```bash
-$ git clone --recursive https://github.com/monero-project/kovri
+$ git clone --recursive https://github.com/byterubpay/kovri
 ```
 
 ## Étape 1 : Créer le réseau de test

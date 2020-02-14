@@ -1,4 +1,4 @@
-[<img width="300" src="https://static.getmonero.org/images/kovri/logo.png" alt="ˈKoʊvriː" />](https://github.com/monero-project/kovri)
+[<img width="300" src="https://static.getmonero.org/images/kovri/logo.png" alt="ˈKoʊvriː" />](https://github.com/byterubpay/kovri)
 
 1. [Att dölja, täcka, skyla](https://en.wikipedia.org/wiki/Esperanto)
 2. En fri, decentraliserad, anonymitetsteknologi baserad på [I2P](https://getmonero.org/resources/moneropedia/i2p.html)s öppna specifikationer
@@ -14,7 +14,7 @@
 
 ## Flerspråkig README
 
-Detta är en översättning av Kovris README-fil. Originalet (på engelska) finns tillgänglig på: https://github.com/monero-project/kovri/blob/master/README.md
+Detta är en översättning av Kovris README-fil. Originalet (på engelska) finns tillgänglig på: https://github.com/byterubpay/kovri/blob/master/README.md
 
 ## Nerladdningar
 
@@ -40,7 +40,7 @@ Detta är en översättning av Kovris README-fil. Originalet (på engelska) finn
 | Typ | Status |
 | ----------- | -------- |
 | Coverity | [![Coverity Status](https://scan.coverity.com/projects/7621/badge.svg)](https://scan.coverity.com/projects/7621/) |
-| Coveralls | [![Coveralls Status](https://coveralls.io/repos/github/monero-project/kovri/badge.svg?branch=master)](https://coveralls.io/github/monero-project/kovri?branch=master) |
+| Coveralls | [![Coveralls Status](https://coveralls.io/repos/github/byterubpay/kovri/badge.svg?branch=master)](https://coveralls.io/github/byterubpay/kovri?branch=master) |
 | License | [![License](https://img.shields.io/badge/license-BSD3-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) |
 
 ## Att bygga projektet
@@ -87,7 +87,7 @@ Valfritt:
 **Använd *inte* zip-filen från github: gör endast en rekursiv kloning**
 
 ```bash
-$ git clone --recursive https://github.com/monero-project/kovri
+$ git clone --recursive https://github.com/byterubpay/kovri
 $ cd kovri && make release # se Makefile för alla byggalternativ
 $ make install
 ```
@@ -105,18 +105,18 @@ $ docker build -t kovri:latest .
 
 ## Dokumentation och Utveckling
 
-- En [Användarhandledning](https://github.com/monero-project/kovri-docs/blob/master/i18n/en/user_guide.md) finns tillgänglig för alla användare
-- En [Utvecklarhandledning](https://github.com/monero-project/kovri-docs/blob/master/i18n/en/developer_guide.md) finns tillgänglig för utveckling (läs den innan du öppnar ett 'pull request')
-- Ytterligare dokumentation hittar du på ditt favoritspråk i kodförrådet [kovri-docs](https://github.com/monero-project/kovri-docs/)
+- En [Användarhandledning](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/user_guide.md) finns tillgänglig för alla användare
+- En [Utvecklarhandledning](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/developer_guide.md) finns tillgänglig för utveckling (läs den innan du öppnar ett 'pull request')
+- Ytterligare dokumentation hittar du på ditt favoritspråk i kodförrådet [kovri-docs](https://github.com/byterubpay/kovri-docs/)
 - [Moneropedia](https://getmonero.org/resources/moneropedia/kovri.html) rekommenderas för alla användare och utvecklare
 - [Forum Funding System](https://forum.getmonero.org/8/funding-required) för att få ersättning för ditt arbete, [skicka in ett förslag](https://forum.getmonero.org/7/open-tasks/2379/forum-funding-system-ffs-sticky)
 - [build.getmonero.org](https://build.getmonero.org/) eller monero-build.i2p för detaljerad information om byggen
-- [repo.getmonero.org](https://repo.getmonero.org/monero-project/kovri) eller monero-repo.i2p är alternativ till GitHub för icke-push åtkomst till kodförråd
-- Se också [kovri-site](https://github.com/monero-project/kovri-site) och [monero/kovri meta](https://github.com/monero-project/meta)
+- [repo.getmonero.org](https://repo.getmonero.org/byterubpay/kovri) eller monero-repo.i2p är alternativ till GitHub för icke-push åtkomst till kodförråd
+- Se också [kovri-site](https://github.com/byterubpay/kovri-site) och [monero/kovri meta](https://github.com/byterubpay/meta)
 
 ## Sårbarhetshantering
 
-- Vår [Process för sårbarhetshantering](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) uppmuntrar till ansvarsfull sårbarhetsredovisning
+- Vår [Process för sårbarhetshantering](https://github.com/byterubpay/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) uppmuntrar till ansvarsfull sårbarhetsredovisning
 - Vi finns också tillgängliga via [HackerOne](https://hackerone.com/monero)
 
 ## Kontakt och support

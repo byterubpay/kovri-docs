@@ -8,7 +8,7 @@
 Noter:
 
 - Hvis du ikke gemmer porten ville Kovri tilfældigt generere en ny en ved hver opstart (Du har også muligheden for at vælge en port med `--port` flaget på hver opstart)
-- Hvis du ikke har adgang til din NAT, se instruktionerne i [building guide](https://github.com/monero-project/kovri-docs/blob/master/i18n/en/building.md) til dit OS.
+- Hvis du ikke har adgang til din NAT, se instruktionerne i [building guide](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/building.md) til dit OS.
 - **Del ikke dit port nummer med nogen da det ville påvirke din anonymitet!**
 
 ## Trin 2. (Anbefalet) Operationel sikkerhed
@@ -58,9 +58,9 @@ Eksempel:
 
 ## Trin 5. (Valgfri) Registrer din nye [eepsite](https://getmonero.org/resources/moneropedia/eepsite)
 
-**Stop! indtil [#498](https://github.com/monero-project/kovri/issues/498) er løst, og overvej kun at registrere dit service med Kovri og *ikke* stats.i2p!** 
+**Stop! indtil [#498](https://github.com/byterubpay/kovri/issues/498) er løst, og overvej kun at registrere dit service med Kovri og *ikke* stats.i2p!** 
 
-- Åben en request med `[Subscription Request] your-host.i2p` (Erstat your-host.i2p med dit ønskede hostnavn) på [Kovri issue tracker](https://github.com/monero-project/kovri/issues)
+- Åben en request med `[Subscription Request] your-host.i2p` (Erstat your-host.i2p med dit ønskede hostnavn) på [Kovri issue tracker](https://github.com/byterubpay/kovri/issues)
 - I request body, indsæt indholdet af din offentlige `.txt` fil der blev nævnt i det tidligere skridt
 - Efter gennemgang, ville vi tilføje din host og tilmelde abonnomentet
 - Færdig!
@@ -91,7 +91,7 @@ Noter:
 
 ## Trin 9. God fornøjelse!
 - Læs mere om Kovri på [Moneropedia](https://getmonero.org/resources/moneropedia/kovri).
-- Åben dine feature requests eller report bugs på vores [issues tracker](https://github.com/monero-project/kovri/issues)
+- Åben dine feature requests eller report bugs på vores [issues tracker](https://github.com/byterubpay/kovri/issues)
 - Lær mere om I2P netværket på [java I2P websiden](https://geti2p.net/en/docs)
 
 # Container muligheder
@@ -103,7 +103,7 @@ På Linux systemer, brug snapcraft for nem implementering.
 ### Trin 1. Hent Kovri's source depot
 
 ```bash
-$ git clone --recursive https://github.com/monero-project/kovri
+$ git clone --recursive https://github.com/byterubpay/kovri
 ```
 
 ### Trin 2. Installer snapcraft

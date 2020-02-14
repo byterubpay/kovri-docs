@@ -4,7 +4,7 @@
 
 ## Фаза 1: Базовый обзор (review)
 
-- Просмотрите открытые проблемы в нашем [Issue Tracker](https://github.com/monero-project/kovri/issues/)
+- Просмотрите открытые проблемы в нашем [Issue Tracker](https://github.com/byterubpay/kovri/issues/)
 - Просмотрите наш [Vulnerability Response Process](https://github.com/anonimal/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md)
 - Весь код должен соответствовать нашим рекомендациям
 - Обратите внимание на области, которые нуждаются в улучшении (умственно или в коде)

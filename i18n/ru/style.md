@@ -1,11 +1,11 @@
 # Стиль
 1. Прочтите [Руководство по стилю C++ от Google](https://google.github.io/styleguide/cppguide.html) (в частности о не-форматированном стиле)
    - Если программируете на bash, прочтите [Google's Shell Style Guide](https://github.com/google/styleguide/blob/gh-pages/shell.xml)
-2. Выполните [clang-format](http://clang.llvm.org/docs/ClangFormat.html) с ```-style=file``` (который использует предоставленные нами [.clang-format](https://github.com/monero-project/kovri/blob/master/.clang-format))
+2. Выполните [clang-format](http://clang.llvm.org/docs/ClangFormat.html) с ```-style=file``` (который использует предоставленные нами [.clang-format](https://github.com/byterubpay/kovri/blob/master/.clang-format))
 ```bash
 $ cd kovri/ && clang-format -i -style=file src/path/to/my/file
 ```
-3. Выполните [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) (который использует предоставленные нами [CPPLINT.cfg](https://github.com/monero-project/kovri/blob/master/CPPLINT.cfg)) чтобы отловить любые проблемы пропущенные clang-format
+3. Выполните [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) (который использует предоставленные нами [CPPLINT.cfg](https://github.com/byterubpay/kovri/blob/master/CPPLINT.cfg)) чтобы отловить любые проблемы пропущенные clang-format
 ```bash
 $ cd kovri/ && cpplint src/path/to/my/file && [edit file manually to apply fixes]
 ```
