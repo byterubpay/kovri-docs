@@ -153,4 +153,4 @@ at gøre dette.
 
 # Governance Process
 
-![Governance Process](https://getmonero.org/blog/assets/2015-year-in-review/governance-process.jpg)
+![Governance Process](https://getbyterub.org/blog/assets/2015-year-in-review/governance-process.jpg)

@@ -149,4 +149,4 @@ C4 ha lo scopo di fornire un modello di collaborazione ottimale utilizzabile nei
 
 # Processo di Governance
 
-![Governance Process](https://getmonero.org/blog/assets/2015-year-in-review/governance-process.jpg)
+![Governance Process](https://getbyterub.org/blog/assets/2015-year-in-review/governance-process.jpg)

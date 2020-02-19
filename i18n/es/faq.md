@@ -3,7 +3,7 @@
 ## ¿Que es Kovri?
 Kovri es una implementación del router [I2P](https://geti2p.net) en C++, segura, privada, no rastreable y anónima. Lo que una vez fue un fork de i2pd, Kovri se ha convertido en una implementación única y activamente desarrollada implementación en C++ de I2P implementación llevada por la comunidad con muchas mejoras de seguridad, y nuevas características por sobre su predecesor.
 
-Lee más de Kovri en la [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri.html).
+Lee más de Kovri en la [ByteRubpedia](https://getbyterub.org/resources/byterubpedia/kovri.html).
 
 ## ¿Cuál es el estado actual de Kovri?
 Kovri está en desarrollo activo y actualmente en fase Alpha. Kovri aun *no* está integrada con ByteRub pero, en adición a algunas funciones principales estamos desarrollando un [cliente](https://github.com/byterubpay/kovri/issues/351) y [una API](https://github.com/byterubpay/kovri/issues/350) principal para ByteRub y otras App.
@@ -37,7 +37,7 @@ Lee nuestro [README](https://github.com/byterubpay/kovri/blob/master/README.md).
 
 ## ¿Cuáles son las principales diferencias entre Kovri y i2pd?
 
-- Proveemos un [Forum Funding System](https://forum.getmonero.org/8/funding-required) (sistema de recaudación de fondos) para desarrollo/características.
+- Proveemos un [Forum Funding System](https://forum.getbyterub.org/8/funding-required) (sistema de recaudación de fondos) para desarrollo/características.
 - Nos enfocamos en crear una ["seguridad por defecto"](http://www.openbsd.org/security.html), fácilmente mantenible, un router I2P mas-probable-de-ser-revisado. Esto viene con el costo de bajar las características menos usadas por usuarios en otros routers, pero con la funcionalidad principal de que una API estará completamente intacta. Creando un router esqueleto, más pequeño y eficiente, hemos provisto a investigadores y desarrolladores más tiempo para auditorias de seguridad y más tiempo para analizar el diseño y especificaciones de I2P.
 - Nos enfocamos en implementar una API intuitiva y amigable para que cualquier aplicación se conecte y use la red I2P; incluyendo ByteRub
 - Hemos otorgado a ambos, usuarios finales y desarrolladores un [seguro de calidad](https://github.com/byterubpay/kovri/issues/58) y [modelos de desarrollo](https://github.com/byterubpay/kovri-docs/blob/master/i18n/es/contributing.md) para proveer un mejor software para todos.

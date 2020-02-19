@@ -3,7 +3,7 @@
 ## Cos'è Kovri?
 Kovri è una sicura, privata e intracciabile implementazione router in C++ della rete anonima I2P. Da un fork di i2pd, Kovri è diventato un'unica implementazione I2P, attivamente sviluppata e guidata dalla community, con tanti miglioramenti, fix di sicurezza e nuove caratteristiche rispetto al suo predecessore.
 
-Leggi di più su Kovri nella [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri).
+Leggi di più su Kovri nella [ByteRubpedia](https://getbyterub.org/resources/byterubpedia/kovri).
 
 ## Qual è lo stato attuale di Kovri?
 Kovri è attivamente sviluppato e correntemente nella fase Alpha. Kovri *non* è ancora integrato con ByteRub ma, oltre a varie features principali, stiamo sviluppando un [client](https://github.com/byterubpay/kovri/issues/351) e un [core](https://github.com/byterubpay/kovri/issues/350) API da usare per ByteRub e altre applicazioni.
@@ -36,7 +36,7 @@ leggi il nostro [README](https://github.com/byterubpay/kovri/blob/master/README.
 
 ## Quali sono le più grandi differenze tra Kovri e i2pd?
 
-- Abbiamo un [Forum Funding System](https://forum.getmonero.org/8/funding-required) per features/sviluppo.
+- Abbiamo un [Forum Funding System](https://forum.getbyterub.org/8/funding-required) per features/sviluppo.
 - Siamo concentrati nella creazione di un router I2P ["sicuro di default"](http://www.openbsd.org/security.html), facilmente mantenibile con più possibilità di reviews. Questo a costo di abbandonare le funzionalità meno utilizzate in altri routers, ma le funzionalità principali e le API rimarranno pienamente intatte. Creando un router più piccolo, efficente ed essenziale, forniremo a sviluppatori e ricercatori più tempo per audit di sicurezza e per mettere in discussione il design I2P e le sue specifiche.
 - Siamo concentrati nell'implementare un'intuitiva, developer-friendly API per qualsiasi applicazione per connettersi e usare il network I2P, questo include ByteRub.
 - Forniamo sia agli utenti finali che agli sviluppatori una [garanzia di qualità](https://github.com/byterubpay/kovri/issues/58) e un [modello di sviluppo](https://github.com/byterubpay/kovri-docs/blob/master/i18n/it/contributing.md) in modo da fornire un software migliore a tutti/e.

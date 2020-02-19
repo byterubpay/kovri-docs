@@ -1,7 +1,7 @@
-[<img width="300" src="https://static.getmonero.org/images/kovri/logo.png" alt="ˈKoʊvriː" />](https://github.com/byterubpay/kovri)
+[<img width="300" src="https://static.getbyterub.org/images/kovri/logo.png" alt="ˈKoʊvriː" />](https://github.com/byterubpay/kovri)
 
 1. [To cover, veil, wrap](https://en.wikipedia.org/wiki/Esperanto)
-2. En gratis, decentral, anonymitetsteknologi baseret på [I2P](https://getmonero.org/resources/moneropedia/i2p.html)'s åbne specifikationer
+2. En gratis, decentral, anonymitetsteknologi baseret på [I2P](https://getbyterub.org/resources/byterubpedia/i2p.html)'s åbne specifikationer
 
 ## Dementi
 - På nuværende tidspunkt **Alfa** software; under heftig udvikling (og endnu ikke integreret med ByteRub)
@@ -18,20 +18,20 @@ Dette er en oversat version af Kovri README, den originale version (på engelsk)
 
 ### Udgivelser
 
-### [Nightly Udgivelser (bleeding edge)](https://build.getmonero.org/waterfall)
+### [Nightly Udgivelser (bleeding edge)](https://build.getbyterub.org/waterfall)
 
 | Download | Checksum | Status |
 | -------- | -------- | ------ |
-| [Linux (x86-64)](https://build.getmonero.org/downloads/kovri-latest-linux-amd64.tar.bz2) | [Linux (x86-64)](https://build.getmonero.org/downloads/kovri-latest-linux-amd64.tar.bz2.sha256sum.txt) | [![Linux (x86-64)](https://build.getmonero.org/png?builder=kovri-static-ubuntu-amd64)](https://build.getmonero.org/builders/kovri-static-ubuntu-amd64) |
-| [Linux (i686)](https://build.getmonero.org/downloads/kovri-latest-linux-i686.tar.bz2) | [Linux (i686)](https://build.getmonero.org/downloads/kovri-latest-linux-i686.tar.bz2.sha256sum.txt) | [![Linux (i686)](https://build.getmonero.org/png?builder=kovri-static-ubuntu-i686)](https://build.getmonero.org/builders/kovri-static-ubuntu-i686) |
-| [Linux (ARMv8)](https://build.getmonero.org/downloads/kovri-latest-linux-armv8.tar.bz2) | [Linux (ARMv8)](https://build.getmonero.org/downloads/kovri-latest-linux-armv8.tar.bz2.sha256sum.txt) | [![Linux (ARMv8)](https://build.getmonero.org/png?builder=kovri-static-debian-arm8)](https://build.getmonero.org/builders/kovri-static-debian-arm8) |
-| [Linux (ARMv7)](https://build.getmonero.org/downloads/kovri-latest-linux-armv7.tar.bz2) | [Linux (ARMv8)](https://build.getmonero.org/downloads/kovri-latest-linux-armv7.tar.bz2.sha256sum.txt) | [![Linux (ARMv8)](https://build.getmonero.org/png?builder=kovri-static-ubuntu-arm7)](https://build.getmonero.org/builders/kovri-static-ubuntu-) |
-| [macOS (x86-64)](https://build.getmonero.org/downloads/kovri-latest-osx-10.13.tar.bz2) | [macOS (x86-64)](https://build.getmonero.org/downloads/kovri-latest-osx-10.13.tar.bz2.sha256sum.txt) | [![macOS (x86-64)](https://build.getmonero.org/png?builder=kovri-static-osx)](https://build.getmonero.org/builders/kovri-static-osx) |
-| [FreeBSD (x86-64)](https://build.getmonero.org/downloads/kovri-latest-freebsd-amd64.tar.bz2) | [FreeBSD (x86-64)](https://build.getmonero.org/downloads/kovri-latest-freebsd-amd64.tar.bz2.sha256sum.txt) | [![FreeBSD (x86-64)](https://build.getmonero.org/png?builder=kovri-static-freebsd64)](https://build.getmonero.org/builders/kovri-static-freebsd64) |
-| [OpenBSD (x86-64)](https://build.getmonero.org/downloads/kovri-latest-openbsd-amd64.tar.bz2) | [OpenBSD (x86-64)](https://build.getmonero.org/downloads/kovri-latest-openbsd-amd64.tar.bz2.sha256sum.txt) | [![OpenBSD (x86-64)](https://build.getmonero.org/png?builder=kovri-static-openbsd-amd64)](https://build.getmonero.org/builders/kovri-static-openbsd-amd64) |
-| [DragonFly BSD (x86-64)](https://build.getmonero.org/downloads/kovri-latest-dragonflybsd-4.6.tar.bz2) | [DragonFly BSD (x86-64)](https://build.getmonero.org/downloads/kovri-latest-dragonflybsd-4.6.tar.bz2.sha256sum.txt) | [![DragonFly BSD (x86-64)](https://build.getmonero.org/png?builder=kovri-static-dragonflybsd-amd64)](https://build.getmonero.org/builders/kovri-static-dragonflybsd-amd64) |
-| [Windows (x86-64)](https://build.getmonero.org/downloads/kovri-latest-win64.exe) | [Windows (x86-64)](https://build.getmonero.org/downloads/kovri-latest-win64.exe.sha256sum.txt) | [![Windows (x86-64)](https://build.getmonero.org/png?builder=kovri-static-win64)](https://build.getmonero.org/builders/kovri-static-win64) |
-| [Windows (i686)](https://build.getmonero.org/downloads/kovri-latest-win32.exe) | [Windows (i686)](https://build.getmonero.org/downloads/kovri-latest-win32.exe.sha256sum.txt) | [![Windows (i686)](https://build.getmonero.org/png?builder=kovri-static-win32)](https://build.getmonero.org/builders/kovri-static-win32) |
+| [Linux (x86-64)](https://build.getbyterub.org/downloads/kovri-latest-linux-amd64.tar.bz2) | [Linux (x86-64)](https://build.getbyterub.org/downloads/kovri-latest-linux-amd64.tar.bz2.sha256sum.txt) | [![Linux (x86-64)](https://build.getbyterub.org/png?builder=kovri-static-ubuntu-amd64)](https://build.getbyterub.org/builders/kovri-static-ubuntu-amd64) |
+| [Linux (i686)](https://build.getbyterub.org/downloads/kovri-latest-linux-i686.tar.bz2) | [Linux (i686)](https://build.getbyterub.org/downloads/kovri-latest-linux-i686.tar.bz2.sha256sum.txt) | [![Linux (i686)](https://build.getbyterub.org/png?builder=kovri-static-ubuntu-i686)](https://build.getbyterub.org/builders/kovri-static-ubuntu-i686) |
+| [Linux (ARMv8)](https://build.getbyterub.org/downloads/kovri-latest-linux-armv8.tar.bz2) | [Linux (ARMv8)](https://build.getbyterub.org/downloads/kovri-latest-linux-armv8.tar.bz2.sha256sum.txt) | [![Linux (ARMv8)](https://build.getbyterub.org/png?builder=kovri-static-debian-arm8)](https://build.getbyterub.org/builders/kovri-static-debian-arm8) |
+| [Linux (ARMv7)](https://build.getbyterub.org/downloads/kovri-latest-linux-armv7.tar.bz2) | [Linux (ARMv8)](https://build.getbyterub.org/downloads/kovri-latest-linux-armv7.tar.bz2.sha256sum.txt) | [![Linux (ARMv8)](https://build.getbyterub.org/png?builder=kovri-static-ubuntu-arm7)](https://build.getbyterub.org/builders/kovri-static-ubuntu-) |
+| [macOS (x86-64)](https://build.getbyterub.org/downloads/kovri-latest-osx-10.13.tar.bz2) | [macOS (x86-64)](https://build.getbyterub.org/downloads/kovri-latest-osx-10.13.tar.bz2.sha256sum.txt) | [![macOS (x86-64)](https://build.getbyterub.org/png?builder=kovri-static-osx)](https://build.getbyterub.org/builders/kovri-static-osx) |
+| [FreeBSD (x86-64)](https://build.getbyterub.org/downloads/kovri-latest-freebsd-amd64.tar.bz2) | [FreeBSD (x86-64)](https://build.getbyterub.org/downloads/kovri-latest-freebsd-amd64.tar.bz2.sha256sum.txt) | [![FreeBSD (x86-64)](https://build.getbyterub.org/png?builder=kovri-static-freebsd64)](https://build.getbyterub.org/builders/kovri-static-freebsd64) |
+| [OpenBSD (x86-64)](https://build.getbyterub.org/downloads/kovri-latest-openbsd-amd64.tar.bz2) | [OpenBSD (x86-64)](https://build.getbyterub.org/downloads/kovri-latest-openbsd-amd64.tar.bz2.sha256sum.txt) | [![OpenBSD (x86-64)](https://build.getbyterub.org/png?builder=kovri-static-openbsd-amd64)](https://build.getbyterub.org/builders/kovri-static-openbsd-amd64) |
+| [DragonFly BSD (x86-64)](https://build.getbyterub.org/downloads/kovri-latest-dragonflybsd-4.6.tar.bz2) | [DragonFly BSD (x86-64)](https://build.getbyterub.org/downloads/kovri-latest-dragonflybsd-4.6.tar.bz2.sha256sum.txt) | [![DragonFly BSD (x86-64)](https://build.getbyterub.org/png?builder=kovri-static-dragonflybsd-amd64)](https://build.getbyterub.org/builders/kovri-static-dragonflybsd-amd64) |
+| [Windows (x86-64)](https://build.getbyterub.org/downloads/kovri-latest-win64.exe) | [Windows (x86-64)](https://build.getbyterub.org/downloads/kovri-latest-win64.exe.sha256sum.txt) | [![Windows (x86-64)](https://build.getbyterub.org/png?builder=kovri-static-win64)](https://build.getbyterub.org/builders/kovri-static-win64) |
+| [Windows (i686)](https://build.getbyterub.org/downloads/kovri-latest-win32.exe) | [Windows (i686)](https://build.getbyterub.org/downloads/kovri-latest-win32.exe.sha256sum.txt) | [![Windows (i686)](https://build.getbyterub.org/png?builder=kovri-static-win32)](https://build.getbyterub.org/builders/kovri-static-win32) |
 
 ## Dækning
 
@@ -104,31 +104,31 @@ $ docker build -t kovri:latest .
 - En [Brugerguide](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/user_guide.md) er tilgængelig for alle brugere
 - En [Udviklerguide](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/developer_guide.md) er tilgængelig for alle udviklere (læse venligst før du åbner en pull request)
 - Yderligere dokumentation kan findes på dit valgte sprog i [kovri-docs](https://github.com/byterubpay/kovri-docs/) repositoriet
-- [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri.html) anbefales for alle brugere og udviklere
-- [Forum Funding System](https://forum.getmonero.org/8/funding-required) for at få økonomisk kompensation for dit arbejde [indsend et forslag](https://forum.getmonero.org/7/open-tasks/2379/forum-funding-system-ffs-sticky)
-- [build.getmonero.org](https://build.getmonero.org/) or monero-build.i2p for detaljeret build information
-- [repo.getmonero.org](https://repo.getmonero.org/byterubpay/kovri) eller monero-repo.i2p er alternativer til  GitHub for non-push repository adgang
-- Se også [kovri-site](https://github.com/byterubpay/kovri-site) og [monero/kovri meta](https://github.com/byterubpay/meta)
+- [ByteRubpedia](https://getbyterub.org/resources/byterubpedia/kovri.html) anbefales for alle brugere og udviklere
+- [Forum Funding System](https://forum.getbyterub.org/8/funding-required) for at få økonomisk kompensation for dit arbejde [indsend et forslag](https://forum.getbyterub.org/7/open-tasks/2379/forum-funding-system-ffs-sticky)
+- [build.getbyterub.org](https://build.getbyterub.org/) or byterub-build.i2p for detaljeret build information
+- [repo.getbyterub.org](https://repo.getbyterub.org/byterubpay/kovri) eller byterub-repo.i2p er alternativer til  GitHub for non-push repository adgang
+- Se også [kovri-site](https://github.com/byterubpay/kovri-site) og [byterub/kovri meta](https://github.com/byterubpay/meta)
 
 ## Sårbarhedsrespons
 - Vores [Sårbarhedsrespons Process](https://github.com/byterubpay/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) opfordrer til ansvarlig offentliggørelse
-- Vi er også tilgængelige via [HackerOne](https://hackerone.com/monero)
+- Vi er også tilgængelige via [HackerOne](https://hackerone.com/byterub)
 
 ## Kontakt og Support
 - IRC: [Freenode](https://webchat.freenode.net/) | Irc2P with Kovri
   - `#kovri` | Community & Support Channel
   - `#kovri-dev` | Development Channel
-- [ByteRub Mattermost](https://mattermost.getmonero.org/)
-- [ByteRub Slack](https://monero.slack.com/) (spørg for invitation på IRC)
-- [ByteRub StackExchange](https://monero.stackexchange.com/)
+- [ByteRub Mattermost](https://mattermost.getbyterub.org/)
+- [ByteRub Slack](https://byterub.slack.com/) (spørg for invitation på IRC)
+- [ByteRub StackExchange](https://byterub.stackexchange.com/)
 - [Reddit /r/Kovri](https://www.reddit.com/r/Kovri/)
 - Twitter: [@getkovri](https://twitter.com/getkovri)
 - Email:
   - Generelle Øjemed / Mediekontact
-    - dev [at] getmonero.org
+    - dev [at] getbyterub.org
   - Al anden kontakt
-    - anonimal [at] getmonero.org
+    - anonimal [at] getbyterub.org
     - PGP Key fingerprint: 1218 6272 CD48 E253 9E2D  D29B 66A7 6ECF 9144 09F1
 
 ## Donationer
-- Besøg vores [Donationsside](https://getmonero.org/getting-started/donate/) for at hjælpe Kovri med donationer
+- Besøg vores [Donationsside](https://getbyterub.org/getting-started/donate/) for at hjælpe Kovri med donationer

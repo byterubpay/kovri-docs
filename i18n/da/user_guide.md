@@ -47,16 +47,16 @@ Som standard, ville du have klient tunneller opsat til IRC (Irc2P) og email (i2p
 
 Når du opretter server tunneller, ville du blive nødt til at oprette *persistent private keys*. For at gøre det, uncomment eller opret `keys = your-keys.dat` og erstat `your-keys` med et passende navn. **Del ikke din private `.dat` fil med nogen, og lav en backup!**
 
-Når opsat, ville din [Base32 address](https://getmonero.org/resources/moneropedia/base32-address) blive vist i din log efter du starter Kovri. Du kan også finde adressen i en tekst fil samt den private nøgler fil i din Kovri datasti i `client/keys` mappen. Adressen i denne `.txt` tekst fil er sikker at videregive så andre kan forbinde sig til dit service.
+Når opsat, ville din [Base32 address](https://getbyterub.org/resources/byterubpedia/base32-address) blive vist i din log efter du starter Kovri. Du kan også finde adressen i en tekst fil samt den private nøgler fil i din Kovri datasti i `client/keys` mappen. Adressen i denne `.txt` tekst fil er sikker at videregive så andre kan forbinde sig til dit service.
 
 Eksempel:
 
 - Private nøgler fil: `client/keys/your-keys.dat`
-- Offentlig [Base32](https://getmonero.org/resources/moneropedia/base32-address)/[Base64](https://getmonero.org/resources/moneropedia/base64-address) addresse: `client/keys/your-keys.dat.txt`
+- Offentlig [Base32](https://getbyterub.org/resources/byterubpedia/base32-address)/[Base64](https://getbyterub.org/resources/byterubpedia/base64-address) addresse: `client/keys/your-keys.dat.txt`
 
 **Note: Se kovri.conf for at finde din datasti til Linux/OSX/Windows**
 
-## Trin 5. (Valgfri) Registrer din nye [eepsite](https://getmonero.org/resources/moneropedia/eepsite)
+## Trin 5. (Valgfri) Registrer din nye [eepsite](https://getbyterub.org/resources/byterubpedia/eepsite)
 
 **Stop! indtil [#498](https://github.com/byterubpay/kovri/issues/498) er løst, og overvej kun at registrere dit service med Kovri og *ikke* stats.i2p!** 
 
@@ -90,7 +90,7 @@ Noter:
 - Samlet set, HTTP Proxy og adressebog implementationen er i udvikling og ikke endnu feature-komplette
 
 ## Trin 9. God fornøjelse!
-- Læs mere om Kovri på [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri).
+- Læs mere om Kovri på [ByteRubpedia](https://getbyterub.org/resources/byterubpedia/kovri).
 - Åben dine feature requests eller report bugs på vores [issues tracker](https://github.com/byterubpay/kovri/issues)
 - Lær mere om I2P netværket på [java I2P websiden](https://geti2p.net/en/docs)
 

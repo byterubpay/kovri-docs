@@ -59,7 +59,7 @@ Notas:
 - Lee `tunnels.conf` para aprender como colocar un servicio túnel que apunte a un servicio que estés hosteando
 
 ## Paso 7. ¡Disfruta!
-- Lee más de Kovri en la [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri.html).
+- Lee más de Kovri en la [ByteRubpedia](https://getbyterub.org/resources/byterubpedia/kovri.html).
 - Abre una petición de nueva característica, o reporta bugs en nuestro [issues tracker](https://github.com/byterubpay/kovri/issues)
 - Aprende más de la red I2P en el [sitio de java I2P](https://geti2p.net/en/docs)
 

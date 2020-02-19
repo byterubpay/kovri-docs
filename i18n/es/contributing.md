@@ -149,4 +149,4 @@ C4 está hecho para ser un modelo óptimo de colaboración para proyectos de sof
 
 # Proceso de gobernanza
 
-![Proceso de gobernanza](https://getmonero.org/blog/assets/2015-year-in-review/governance-process.jpg)
+![Proceso de gobernanza](https://getbyterub.org/blog/assets/2015-year-in-review/governance-process.jpg)

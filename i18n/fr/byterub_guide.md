@@ -2,9 +2,9 @@
 
 ## Démarrer
 
-1. Suivez les instructions pour compiler et/ou installer [Kovri](https://github.com/byterubpay/kovri) & [ByteRub](https://github.com/byterubpay/monero)
+1. Suivez les instructions pour compiler et/ou installer [Kovri](https://github.com/byterubpay/kovri) & [ByteRub](https://github.com/byterubpay/byterub)
 2. Étudiez le [Guide Utilisateur](https://github.com/byterubpay/kovri-docs/blob/master/i18n/fr/user_guide.md) dans la langue de votre choix
-3. Configurez les tunnels serveur et client de Kovri pour vous connecter aux nœuds `monerod` à travers le réseau I2P
+3. Configurez les tunnels serveur et client de Kovri pour vous connecter aux nœuds `byterubd` à travers le réseau I2P
 
 ## Tunnel serveur de Kovri
 
@@ -23,7 +23,7 @@ keys = xmr-p2p-keys.dat
 ;black_list =
 ```
 
-Cette configuration va ouvrir un port d'écoute de Kovri sur le port P2P testnet par défaut de `monerod`. Ensuite, lisez le [Guide Utilisateur](https://github.com/byterubpay/kovri-docs/blob/master/i18n/fr/user_guide.md) pour savoir comment obtenir une adresse de destination Base32.
+Cette configuration va ouvrir un port d'écoute de Kovri sur le port P2P testnet par défaut de `byterubd`. Ensuite, lisez le [Guide Utilisateur](https://github.com/byterubpay/kovri-docs/blob/master/i18n/fr/user_guide.md) pour savoir comment obtenir une adresse de destination Base32.
 
 Si vous avez déjà démarré votre routeur kovri, lancez `$ kill -HUP $(pgrep kovri)` pour charger le nouveau tunnel. Plus radicalement, vous pouvez également faire un redémarrage forcé en arrêtant et redémarrant kovri.
 
@@ -49,12 +49,12 @@ Si vous avez déjà démarré votre routeur kovri, lancez `$ kill -HUP $(pgrep k
 
 ## ByteRub P2P à travers Kovri
 
-Faire pointer `monerod` vers votre nouveau tunnel client Kovri est tout aussi simple.
+Faire pointer `byterubd` vers votre nouveau tunnel client Kovri est tout aussi simple.
 
 Voici un exemple pour démarrer un nœud testnet d'extraction minière :
 
 ```bash
-monerod --testnet --start-mining your-testnet-wallet-address --add-exclusive-node 127.0.0.1:24040
+byterubd --testnet --start-mining your-testnet-wallet-address --add-exclusive-node 127.0.0.1:24040
 ```
 
 Si vous remarquez des problèmes de connectivité, attendez qur vos noeuds Kovri aient intégré le réseau (~5-10 min après démarrage)

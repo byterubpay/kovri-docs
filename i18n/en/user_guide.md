@@ -47,17 +47,17 @@ By default, you will have client tunnels setup for IRC (Irc2P) and email (i2pmai
 
 When creating server tunnel(s), you'll need to create *persistent private keys* which are used for your destination. To do so, uncomment or create `keys = your-keys.dat` and replace `your-keys` with an appropriate name. **Do not share your private `.dat` file with anyone (the only exception being if you wish to deploy multi-homing), and be sure to make a backup of the file!**
 
-Once setup, your [Base32](https://getmonero.org/resources/moneropedia/base32-address) and [Base64](https://getmonero.org/resources/moneropedia/base64-address) encoded destination will be shown in your log after you start kovri. You can also find these encodings in a text file along with the `.dat` file in your kovri data path in the `client/keys` directory. The encoded destination inside the **text files** `.dat.b32.txt` and `.dat.b64.txt` are safe to distribute to others so they can connect to your service.
+Once setup, your [Base32](https://getbyterub.org/resources/byterubpedia/base32-address) and [Base64](https://getbyterub.org/resources/byterubpedia/base64-address) encoded destination will be shown in your log after you start kovri. You can also find these encodings in a text file along with the `.dat` file in your kovri data path in the `client/keys` directory. The encoded destination inside the **text files** `.dat.b32.txt` and `.dat.b64.txt` are safe to distribute to others so they can connect to your service.
 
 Example:
 
 - Private keys file: `client/keys/your-keys.dat`
-- Public [Base32](https://getmonero.org/resources/moneropedia/base32-address): `client/keys/your-keys.dat.b32.txt`
-- Public [Base64](https://getmonero.org/resources/moneropedia/base64-address): `client/keys/your-keys.dat.b64.txt`
+- Public [Base32](https://getbyterub.org/resources/byterubpedia/base32-address): `client/keys/your-keys.dat.b32.txt`
+- Public [Base64](https://getbyterub.org/resources/byterubpedia/base64-address): `client/keys/your-keys.dat.b64.txt`
 
 **Note: see kovri.conf to find your data path for Linux/OSX/Windows**
 
-## Step 5. (Optional) Register your new [eepsite](https://getmonero.org/resources/moneropedia/eepsite)
+## Step 5. (Optional) Register your new [eepsite](https://getbyterub.org/resources/byterubpedia/eepsite)
 
 **Stop! Until [#498](https://github.com/byterubpay/kovri/issues/498) is resolved, consider only registering your service with Kovri and *not* stats.i2p!**
 
@@ -91,7 +91,7 @@ Notes:
 - Overall, HTTP Proxy and address book implementation are in development and not yet feature-complete
 
 ## Step 9. Enjoy!
-- Read more about Kovri in the [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri).
+- Read more about Kovri in the [ByteRubpedia](https://getbyterub.org/resources/byterubpedia/kovri).
 - Open your feature requests or report bugs on our [issues tracker](https://github.com/byterubpay/kovri/issues)
 - Learn more about the I2P network on the [java I2P website](https://geti2p.net/en/docs)
 

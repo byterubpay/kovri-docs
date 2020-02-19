@@ -27,9 +27,9 @@
 
 ### Qu'est-ce que Kovri ?
 
-[Kovri](https://getmonero.org/resources/moneropedia/kovri.html) est une technologie gratuite et décentralisée pour garantir l'anonymat sur internet. Elle est développée par [ByteRub](https://getmonero.org).
+[Kovri](https://getbyterub.org/resources/byterubpedia/kovri.html) est une technologie gratuite et décentralisée pour garantir l'anonymat sur internet. Elle est développée par [ByteRub](https://getbyterub.org).
 
-Basé sur les spécifications d'[I2P](https://getmonero.org/resources/moneropedia/i2p.html), Kovri utilise les technologies [chiffrement en ail](https://getmonero.org/resources/moneropedia/garlic-encryption.html) et [routage en ail](https://getmonero.org/resources/moneropedia/garlic-routing.html) pour créer une surcouche à internet à la fois privée et protégée.
+Basé sur les spécifications d'[I2P](https://getbyterub.org/resources/byterubpedia/i2p.html), Kovri utilise les technologies [chiffrement en ail](https://getbyterub.org/resources/byterubpedia/garlic-encryption.html) et [routage en ail](https://getbyterub.org/resources/byterubpedia/garlic-routing.html) pour créer une surcouche à internet à la fois privée et protégée.
 
 Kovri *recouvre* le trafic internet d'une application pour le rendre anonyme sur le réseau.
 
@@ -38,7 +38,7 @@ Kovri est un routeur léger et axé sur la sécurité. Il est totalement compati
 ### Qui développe Kovri ?
 Kovri est un projet open-source, ce qui veut dire qu'il est entièrement dépendant des contributions de la communauté. Le développeur principal du projet est [anonimal](https://github.com/anonimal), que vous pouvez contacter via les canaux IRC [#kovri](irc://chat.freenode.net/#kovri) et [#kovri-dev](irc://chat.freenode.net/#kovri-dev), et via son [compte Twitter](https://twitter.com/0x914409F1).
 
-Kovri est développé sous l'égide du [Projet ByteRub](https://github.com/byterubpay). C'est un autre projet open-source, qui développe la [Pièce ByteRub](https://getmonero.org) et [Open Alias](https://openalias.org). La relation entre le Projet ByteRub et Kovri est mutuellement bénéfique dans le sens où Kovri va s'intégrer dans le réseau ByteRub et ByteRub contribue au projet Kovri en fournissant des développeurs et des ressources.
+Kovri est développé sous l'égide du [Projet ByteRub](https://github.com/byterubpay). C'est un autre projet open-source, qui développe la [Pièce ByteRub](https://getbyterub.org) et [Open Alias](https://openalias.org). La relation entre le Projet ByteRub et Kovri est mutuellement bénéfique dans le sens où Kovri va s'intégrer dans le réseau ByteRub et ByteRub contribue au projet Kovri en fournissant des développeurs et des ressources.
 
 ### En quoi Kovri va-t-il aider ByteRub ?
 Le ByteRub est une crypto-monnaie sécurisée, privée, intraçable, fongible et confidentielle par défaut. Il utilise les technologies suivantes pour cacher respectivement le destinataire, la quantité envoyée et l'expéditeur : des adresses furtives, signatures confidentielles de cercle (*RingCT*) et les signatures de cercle (*Ring Signatures*). Des vulnérabilités potentielles de ByteRub pourraient laisser fuiter l'adresse IP qui émet la transaction.
@@ -105,7 +105,7 @@ Visitez notre [README](https://github.com/byterubpay/kovri/blob/master/README.md
 
 ### Quelles sont les principales différences entre Kovri et i2pd ?
 
-- Nous avons un [Forum de financements](https://forum.getmonero.org/8/funding-required) pour le développement et l'ajout de fonctionnalités.
+- Nous avons un [Forum de financements](https://forum.getbyterub.org/8/funding-required) pour le développement et l'ajout de fonctionnalités.
 - Nous nous focalisons sur la création d'un routeur I2P qui est [sécurisé par défaut](http://www.openbsd.org/security.html), facile à maintenir et qui a de grandes chances d'être examiné et vérifié par la communauté. Cela a le désavantage que nous supprimons les fonctionnalités les moins utilisées par rapport aux autres routeurs, mais les fonctionnalités principales et l'API seront complètes et intactes. En créant un routeur plus léger, simple et efficace, les développeurs et chercheurs auront plus de temps pour auditer la sécurité et pour questionner le design I2P et les spécifications.
 - Nous implémentons une API intuitive et facile à utiliser pour n'importe quelle application qui veut se connecter et utiliser le réseau I2P. C'est notamment le cas pour ByteRub.
 - Nous fournissons à la fois aux utilisateurs et aux développeurs une [assurance qualité](https://github.com/byterubpay/kovri/issues/58) et un [modèle de développement](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/contributing.md) dans le but de fournir des meilleurs logiciels pour tout le monde.

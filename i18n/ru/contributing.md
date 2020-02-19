@@ -152,4 +152,4 @@ C4 означает предоставление многоразовой опт
 
 # Процесс управления
 
-![Governance Process](https://getmonero.org/blog/assets/2015-year-in-review/governance-process.jpg)
+![Governance Process](https://getbyterub.org/blog/assets/2015-year-in-review/governance-process.jpg)

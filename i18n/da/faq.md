@@ -22,9 +22,9 @@
   
   ## Generelle spørgsmål
   
-  [Kovri](https://getmonero.org/resources/moneropedia/kovri.html) er en gratis, decentraliseret, anonymitetsteknologi udviklet af [ByteRub](https://getmonero.org).
+  [Kovri](https://getbyterub.org/resources/byterubpedia/kovri.html) er en gratis, decentraliseret, anonymitetsteknologi udviklet af [ByteRub](https://getbyterub.org).
 
-I øjeblikket baseret på [I2P](https://getmonero.org/resources/moneropedia/i2p.html)'s åbne specifikationer, bruger Kovri både [garlic encryption](https://getmonero.org/resources/moneropedia/garlic-encryption.html) og [garlic routing](https://getmonero.org/resources/moneropedia/garlic-routing.html) for at oprette et privat, beskyttet overlay-netværk over internettet. Dette overlay-netværk giver brugerne evnen til at *effektivt* skjule deres geografiske lokation og internet IP adresse.
+I øjeblikket baseret på [I2P](https://getbyterub.org/resources/byterubpedia/i2p.html)'s åbne specifikationer, bruger Kovri både [garlic encryption](https://getbyterub.org/resources/byterubpedia/garlic-encryption.html) og [garlic routing](https://getbyterub.org/resources/byterubpedia/garlic-routing.html) for at oprette et privat, beskyttet overlay-netværk over internettet. Dette overlay-netværk giver brugerne evnen til at *effektivt* skjule deres geografiske lokation og internet IP adresse.
 
 Essentielt, *dækker* Kovri en applikations internet traffik for at gøre det anonymt i netværket.
 
@@ -33,7 +33,7 @@ Kovri er en sikkerheds-fokuseret router, der er fuldt kompatibel med I2P netvær
 ### Hvem udvikler Kovri?
 Kovri er et open-source projekt, som betyder at det afhænger af fælleskabets bidrag. De ledende udviklere på dette projekt er [anonimal](https://github.com/anonimal), som du kan stille spørgsmål til via Kovri IRC kanalerne [#kovri](irc://chat.freenode.net/#kovri), [#kovri-dev](irc://chat.freenode.net/#kovri-dev), og hans [Twitter konto](https://twitter.com/whoisanonimal).
 
-Kovri bliver udviklet under paraplyen af  [The ByteRub Project](https://github.com/byterubpay), hvilket er et andet open-source projekt der udvikler [ByteRub mønten](https://getmonero.org) og [Open Alias](https://openalias.org). Forholdet mellem The ByteRub Project og Kovri er en gensidig fordel, hvor Kovri søger at integrere sig i ByteRub-netværket, og ByteRub leverer en strøm af udviklere og ressourcer til Kovri-udvikling.
+Kovri bliver udviklet under paraplyen af  [The ByteRub Project](https://github.com/byterubpay), hvilket er et andet open-source projekt der udvikler [ByteRub mønten](https://getbyterub.org) og [Open Alias](https://openalias.org). Forholdet mellem The ByteRub Project og Kovri er en gensidig fordel, hvor Kovri søger at integrere sig i ByteRub-netværket, og ByteRub leverer en strøm af udviklere og ressourcer til Kovri-udvikling.
 
 ### Hvordan ville Kovri hjælpe ByteRub?
 ByteRub er en sikker, privat, usporlig og fungibel cryptocurrency, der som standard har privatlivets fred, og bruger sådanne teknologier som stealth adresser, RingCT og ring signaturer for at skjule modtager, beløb og afsender henholdsvis. Nogle potentielle svagheder i ByteRub lækker IP-adressen, der sender en transaktions- og korrelationsangreb.
@@ -70,7 +70,7 @@ For det andet, mens Java-implementeringen af I2P er fantastisk, kommer den med e
 - Går med din hund eller favorit kæledyr og betaler dine skatter
 
 ### Hvad er det nuværende stadie af Kovri?
-Kovri er i aktiv udvikling og er i øjeblikket i en Alpha fase. Det er * ikke * endnu integreret med ByteRub, men udover flere kerneegenskaber udvikler vi en [client](https://github.com/byterubpay/kovri/issues/351) og [core](https://github.com/byterubpay/kovri/issues/350) API for monero, og andre applikationer som de kan bruge
+Kovri er i aktiv udvikling og er i øjeblikket i en Alpha fase. Det er * ikke * endnu integreret med ByteRub, men udover flere kerneegenskaber udvikler vi en [client](https://github.com/byterubpay/kovri/issues/351) og [core](https://github.com/byterubpay/kovri/issues/350) API for byterub, og andre applikationer som de kan bruge
 
 Men bare fordi vi er i Alpha betyder det ikke, at du ikke kan bruge Kovri. I øjeblikket kan du bruge Kovri til at oprette forbindelse til (og deltage) i I2P-netværket, browse eepsites, oprette forbindelse til IRC og køre klient -og servertunneler.
 
@@ -99,9 +99,9 @@ Læs vores [README](https://github.com/byterubpay/kovri/blob/master/README.md).
 
 ### Hvad er de største forskelle mellem Kovri og ip2d?
 
-- - Vi leverer et [Forum Funding System] (https://forum.getmonero.org/8/funding-required) for funktioner / udvikling.
+- - Vi leverer et [Forum Funding System] (https://forum.getbyterub.org/8/funding-required) for funktioner / udvikling.
 - Vi fokuserer på at skabe en ["sikker som standard"](http://www.openbsd.org/security.html), let vedligeholdelig, mere sandsynligt at blive revideret I2P router. Dette vil medføre omkostningerne ved at droppe mindre anvendte funktioner, som findes i de andre routere, men kernefunktionalitet og en API vil være helt intakte. Ved at oprette en mindre, effektiv "bare-bens" router, vil vi give udviklere og forskere mere tid til sikkerhedsrevision og mere tid til at stille spørgsmålstegn ved I2P-design og specifikationer.
-- Vi fokuserer på at implementere en intuitivt, udviklervenligt API til enhver applikation til at oprette forbindelse til og bruge I2P-netværket; dette inkluderer monero.
+- Vi fokuserer på at implementere en intuitivt, udviklervenligt API til enhver applikation til at oprette forbindelse til og bruge I2P-netværket; dette inkluderer byterub.
 - Vi giver både slutbrugere og udviklere en [kvalitetssikring](https://github.com/byterubpay/kovri/issues/58) og [udviklingsmodel](https://github.com/byterubpay/kovri-docs/blob/master/i18n/da/contributing.md) for at give bedre software til alle.
 - Vi vil implementere alternative reseeding muligheder, så brugerne kan bruge [Pluggable Transports](https://www.torproject.org/docs/pluggable-transports.html.en) i stedet for HTTPS som reseed.
 - Vi vil implementere udvidet funktionalitet * (skjult tilstand + deaktiveret indgående) * for at give anonymitet for dem, der bor i lande med ekstreme forhold eller dem, der firewalles af carrier-grade NAT eller DS-Lite.

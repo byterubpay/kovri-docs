@@ -2,9 +2,9 @@
 
 ## Getting Started
 
-1. Follow the instructions for building and/or installing [Kovri](https://github.com/byterubpay/kovri) & [ByteRub](https://github.com/byterubpay/monero)
+1. Follow the instructions for building and/or installing [Kovri](https://github.com/byterubpay/kovri) & [ByteRub](https://github.com/byterubpay/byterub)
 2. Review the [User Guide](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/user_guide.md) in your language of choice
-3. Configure Kovri server and client tunnels to connect to `monerod` nodes over the I2P network
+3. Configure Kovri server and client tunnels to connect to `byterubd` nodes over the I2P network
 
 ## Kovri server tunnel
 
@@ -23,7 +23,7 @@ keys = xmr-p2p-keys.dat
 ;black_list =
 ```
 
-This configuration will open a Kovri listener on `monerod`'s default testnet P2P port. Next, read the [User Guide](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/user_guide.md) for how to obtain the base32 destination address.
+This configuration will open a Kovri listener on `byterubd`'s default testnet P2P port. Next, read the [User Guide](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/user_guide.md) for how to obtain the base32 destination address.
 
 If you have already started your kovri router, run `$ kill -HUP $(pgrep kovri)` to load the new tunnel. More drastically, you can also do a hard restart by stopping and starting kovri.
 
@@ -49,12 +49,12 @@ If you have already started your kovri router, run `$ kill -HUP $(pgrep kovri)` 
 
 ## ByteRub P2P via Kovri
 
-Pointing `monerod` to your new Kovri client tunnel is just as easy.
+Pointing `byterubd` to your new Kovri client tunnel is just as easy.
 
 Here is an example for starting a mining testnet node:
 
 ```bash
-monerod --testnet --start-mining your-testnet-wallet-address --add-exclusive-node 127.0.0.1:24040
+byterubd --testnet --start-mining your-testnet-wallet-address --add-exclusive-node 127.0.0.1:24040
 ```
 
 If you notice connectivity issues, wait for your Kovri nodes to integrate into the network (~5-10 min after start).
@@ -82,7 +82,7 @@ To use the same destination address as P2P, simply replace `xmr-rpc-keys.dat` wi
 
 If you have already started your kovri router, run `$ kill -HUP $(pgrep kovri)` to load the new tunnel. More drastically, you can also do a hard restart by stopping and starting kovri.
 
-This tunnel exposes `monerod`'s default testnet JSON RPC, and one can use Kovri's HTTP client tunnel to connect.
+This tunnel exposes `byterubd`'s default testnet JSON RPC, and one can use Kovri's HTTP client tunnel to connect.
 
 Here is an example for connecting with curl from a Kovri client node:
 

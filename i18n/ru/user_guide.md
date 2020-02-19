@@ -47,16 +47,16 @@ $ cd "C:\Program Files\Kovri" ; ./kovri.exe --help
 
 При создании серверного тунеля(ей), вам необходимо создать *(постоянные закрытые ключи(persistent private keys)*. Для этого раскомментируйте или создайте `keys = your-keys.dat` и замените `your-keys` на соответствующее имя. **Не передавайте никому ваш личный `.dat` файл, и не забудьте сделать резервную копию!**
 
-После настройки, ваш [Base32 адрес](https://getmonero.org/resources/moneropedia/base32-address) будет показан в вашем журнале, после запуска kovri. Также можно найти адрес в текстовом файле рядом с файлом закрытых ключей, в папке с kovri в `client/keys` папке. Адрес внутри этого `.txt` текстового файла можно спокойно распространять, чтобы люди могли подключиться к вашему сервису.
+После настройки, ваш [Base32 адрес](https://getbyterub.org/resources/byterubpedia/base32-address) будет показан в вашем журнале, после запуска kovri. Также можно найти адрес в текстовом файле рядом с файлом закрытых ключей, в папке с kovri в `client/keys` папке. Адрес внутри этого `.txt` текстового файла можно спокойно распространять, чтобы люди могли подключиться к вашему сервису.
 
 Например:
 
 - Файл закрытых ключей: `client/keys/your-keys.dat`
-- Публичный [Base32](https://getmonero.org/resources/moneropedia/base32-address)/[Base64](https://getmonero.org/resources/moneropedia/base64-address) адрес: `client/keys/your-keys.dat.txt`
+- Публичный [Base32](https://getbyterub.org/resources/byterubpedia/base32-address)/[Base64](https://getbyterub.org/resources/byterubpedia/base64-address) адрес: `client/keys/your-keys.dat.txt`
 
 **Примечание: см. kovri.conf, чтобы найти папку для Linux/OSX/Windows**
 
-## Шаг 5. (Выборочно) Зарегистрируйте свой новый [eepsite](https://getmonero.org/resources/moneropedia/eepsite)
+## Шаг 5. (Выборочно) Зарегистрируйте свой новый [eepsite](https://getbyterub.org/resources/byterubpedia/eepsite)
 
 **Стоп! Пока не решено [#498](https://github.com/byterubpay/kovri/issues/498), подумайте над регистрацией вашего сервиса только с Kovri, а *не* с stats.i2p!**
 
@@ -90,7 +90,7 @@ $ cd build/ && ./kovri
 - В целом, реализация HTTP-прокси и адресной книги находится в разработке и еще не полностью закончена
 
 ## Шаг 9. Наслаждайтесь!
-- Почитать больше о Kovri в [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri).
+- Почитать больше о Kovri в [ByteRubpedia](https://getbyterub.org/resources/byterubpedia/kovri).
 - Открыть запрос на доработку или сообщить об ошибке в наш [issues tracker](https://github.com/byterubpay/kovri/issues)
 - Узнать больше о сети I2P [сайте java I2P](https://geti2p.net/en/docs)
 

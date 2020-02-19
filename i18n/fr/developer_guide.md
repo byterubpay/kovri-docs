@@ -4,7 +4,7 @@
 
 ## Réponse aux Vulnérabilités
 - Notre [Processus de Réponse aux Vulnérabilités](https://github.com/byterubpay/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourage les divulgations responsables
-- Nous sommes également disponible à travers [HackerOne](https://hackerone.com/monero)
+- Nous sommes également disponible à travers [HackerOne](https://hackerone.com/byterub)
 
 # Style
 1. Lisez le [Guide de Style C++ de Google](https://google.github.io/styleguide/cppguide.html) (particulièrement pour ce qui est du *non-formatting*)
@@ -281,4 +281,4 @@ C4 est destiné à fournir un modèle de collaboration optimal et réutilisable 
 
 # Processus de gouvernance.
 
-![Processus de gouvernance](https://getmonero.org/blog/assets/2015-year-in-review/governance-process.jpg)
+![Processus de gouvernance](https://getbyterub.org/blog/assets/2015-year-in-review/governance-process.jpg)
