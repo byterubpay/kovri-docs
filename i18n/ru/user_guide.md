@@ -90,7 +90,7 @@ $ cd build/ && ./kovri
 - В целом, реализация HTTP-прокси и адресной книги находится в разработке и еще не полностью закончена
 
 ## Шаг 9. Наслаждайтесь!
-- Почитать больше о Kovri в [Moneropedia](https://getmonero.org/resources/moneropedia/kovri).
+- Почитать больше о Kovri в [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri).
 - Открыть запрос на доработку или сообщить об ошибке в наш [issues tracker](https://github.com/byterubpay/kovri/issues)
 - Узнать больше о сети I2P [сайте java I2P](https://geti2p.net/en/docs)
 

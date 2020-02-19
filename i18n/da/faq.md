@@ -4,7 +4,7 @@
 - Generelle spørgsmål
   - Hvad er Kovri?
   - Hvem udvikler Kovri?
-  - Hvordan ville Kovri hjælpe Monero?
+  - Hvordan ville Kovri hjælpe ByteRub?
   - Hvorfor skulle jeg hente Kovri i stedet for I2P?
   - Hvad gør Kovri, og hvad gør den ikke for dig?
   - Hvornår er alphaen
@@ -22,7 +22,7 @@
   
   ## Generelle spørgsmål
   
-  [Kovri](https://getmonero.org/resources/moneropedia/kovri.html) er en gratis, decentraliseret, anonymitetsteknologi udviklet af [Monero](https://getmonero.org).
+  [Kovri](https://getmonero.org/resources/moneropedia/kovri.html) er en gratis, decentraliseret, anonymitetsteknologi udviklet af [ByteRub](https://getmonero.org).
 
 I øjeblikket baseret på [I2P](https://getmonero.org/resources/moneropedia/i2p.html)'s åbne specifikationer, bruger Kovri både [garlic encryption](https://getmonero.org/resources/moneropedia/garlic-encryption.html) og [garlic routing](https://getmonero.org/resources/moneropedia/garlic-routing.html) for at oprette et privat, beskyttet overlay-netværk over internettet. Dette overlay-netværk giver brugerne evnen til at *effektivt* skjule deres geografiske lokation og internet IP adresse.
 
@@ -33,17 +33,17 @@ Kovri er en sikkerheds-fokuseret router, der er fuldt kompatibel med I2P netvær
 ### Hvem udvikler Kovri?
 Kovri er et open-source projekt, som betyder at det afhænger af fælleskabets bidrag. De ledende udviklere på dette projekt er [anonimal](https://github.com/anonimal), som du kan stille spørgsmål til via Kovri IRC kanalerne [#kovri](irc://chat.freenode.net/#kovri), [#kovri-dev](irc://chat.freenode.net/#kovri-dev), og hans [Twitter konto](https://twitter.com/whoisanonimal).
 
-Kovri bliver udviklet under paraplyen af  [The Monero Project](https://github.com/byterubpay), hvilket er et andet open-source projekt der udvikler [Monero mønten](https://getmonero.org) og [Open Alias](https://openalias.org). Forholdet mellem The Monero Project og Kovri er en gensidig fordel, hvor Kovri søger at integrere sig i Monero-netværket, og Monero leverer en strøm af udviklere og ressourcer til Kovri-udvikling.
+Kovri bliver udviklet under paraplyen af  [The ByteRub Project](https://github.com/byterubpay), hvilket er et andet open-source projekt der udvikler [ByteRub mønten](https://getmonero.org) og [Open Alias](https://openalias.org). Forholdet mellem The ByteRub Project og Kovri er en gensidig fordel, hvor Kovri søger at integrere sig i ByteRub-netværket, og ByteRub leverer en strøm af udviklere og ressourcer til Kovri-udvikling.
 
-### Hvordan ville Kovri hjælpe Monero?
-Monero er en sikker, privat, usporlig og fungibel cryptocurrency, der som standard har privatlivets fred, og bruger sådanne teknologier som stealth adresser, RingCT og ring signaturer for at skjule modtager, beløb og afsender henholdsvis. Nogle potentielle svagheder i Monero lækker IP-adressen, der sender en transaktions- og korrelationsangreb.
+### Hvordan ville Kovri hjælpe ByteRub?
+ByteRub er en sikker, privat, usporlig og fungibel cryptocurrency, der som standard har privatlivets fred, og bruger sådanne teknologier som stealth adresser, RingCT og ring signaturer for at skjule modtager, beløb og afsender henholdsvis. Nogle potentielle svagheder i ByteRub lækker IP-adressen, der sender en transaktions- og korrelationsangreb.
 
-Kovri vil blive implementeret i den officielle Monero tegnebog, så alle transaktioner vil blive sendt via det Kovri anonyme netværk, der skjuler den IP-adresse, hvorfra transaktionen stammer fra. I fremtiden vil alle transaktioner blive dirigeret gennem Kovri som standard, selvom downloading af blockchainen stadig vil være gennem clearnettet for effektivitet.
+Kovri vil blive implementeret i den officielle ByteRub tegnebog, så alle transaktioner vil blive sendt via det Kovri anonyme netværk, der skjuler den IP-adresse, hvorfra transaktionen stammer fra. I fremtiden vil alle transaktioner blive dirigeret gennem Kovri som standard, selvom downloading af blockchainen stadig vil være gennem clearnettet for effektivitet.
 
 ### Hvorfor skulle jeg bruge Kovri i stedet for I2P?
-[I2P] (https://geti2p.net) er et godt projekt, men der var et par ting, som vi følte var nødvendige for at tilpasse teknologien til Monero. For det første er I2P udviklet i Java, og vi mente, at udviklingen af en router i C++ ville hjælpe koden med at være hurtig og let.
+[I2P] (https://geti2p.net) er et godt projekt, men der var et par ting, som vi følte var nødvendige for at tilpasse teknologien til ByteRub. For det første er I2P udviklet i Java, og vi mente, at udviklingen af en router i C++ ville hjælpe koden med at være hurtig og let.
 
-For det andet, mens Java-implementeringen af I2P er fantastisk, kommer den med en masse ekstra funktioner, som vi ikke føler er nødvendige for, at Monero-applikationen kan bruges. Så vi besluttede at starte fra bunden og lave en router, der KUN er en router. Denne bare-ben-tilgang er perfekt til Monero, og er også gode nyheder for andre, der ønsker at lave I2P-applikationer. De har mulighed for at bruge en letvægtsrouter uden alt overskud, mens andre brugere der har brug for disse ekstrafunktioner, vil kunne bruge Java-implementeringen. Det er en win-win for alle.
+For det andet, mens Java-implementeringen af I2P er fantastisk, kommer den med en masse ekstra funktioner, som vi ikke føler er nødvendige for, at ByteRub-applikationen kan bruges. Så vi besluttede at starte fra bunden og lave en router, der KUN er en router. Denne bare-ben-tilgang er perfekt til ByteRub, og er også gode nyheder for andre, der ønsker at lave I2P-applikationer. De har mulighed for at bruge en letvægtsrouter uden alt overskud, mens andre brugere der har brug for disse ekstrafunktioner, vil kunne bruge Java-implementeringen. Det er en win-win for alle.
 
 ### Hvad gør Kovri nu?
 - Tillader dig at blive en node på I2P netværket
@@ -54,7 +54,7 @@ For det andet, mens Java-implementeringen af I2P er fantastisk, kommer den med e
 - Målsætninger for streng kodekvalitet og dev standarder
 
 ### hvilke udviklinger har Kovri planer for til fremtiden?
-- Behandling af Monero transaktioner over I2P
+- Behandling af ByteRub transaktioner over I2P
 - GUI for forbedret konfiguration og brugbarhed
 - Biblioteks API og bindinger til eksterne apps/biblioteker
 - Firefox udvidelse for nemt at få adgang til hjemmesider
@@ -70,7 +70,7 @@ For det andet, mens Java-implementeringen af I2P er fantastisk, kommer den med e
 - Går med din hund eller favorit kæledyr og betaler dine skatter
 
 ### Hvad er det nuværende stadie af Kovri?
-Kovri er i aktiv udvikling og er i øjeblikket i en Alpha fase. Det er * ikke * endnu integreret med Monero, men udover flere kerneegenskaber udvikler vi en [client](https://github.com/byterubpay/kovri/issues/351) og [core](https://github.com/byterubpay/kovri/issues/350) API for monero, og andre applikationer som de kan bruge
+Kovri er i aktiv udvikling og er i øjeblikket i en Alpha fase. Det er * ikke * endnu integreret med ByteRub, men udover flere kerneegenskaber udvikler vi en [client](https://github.com/byterubpay/kovri/issues/351) og [core](https://github.com/byterubpay/kovri/issues/350) API for monero, og andre applikationer som de kan bruge
 
 Men bare fordi vi er i Alpha betyder det ikke, at du ikke kan bruge Kovri. I øjeblikket kan du bruge Kovri til at oprette forbindelse til (og deltage) i I2P-netværket, browse eepsites, oprette forbindelse til IRC og køre klient -og servertunneler.
 
@@ -80,7 +80,7 @@ En alpha release er i værkerne, der skal udgives (vi håber !!) inden udgangen 
 Lige nu fokuserer vi på alting der står på vores [issues tracker](https://github.com/byterubpay/kovri/issues/). De dækker hovedparten af hvad vi skal afslutte før vi udgiver en officiel alpha release.
 
 ### Hvad er den nuværende brugbarhed af Kovri og hvilken privatliv tilbyder den?
-Kovri er anvendelig i det omfang, hvad `./kovri --help` har at tilbyde. Kovri har i øjeblikket ingen interaktion med Monero. Med hensyn til privatlivets fred har vi etableret mange sikkerhedsproblemer siden starten, men vi beder dig om at huske på, at vi stadig er i Alpha.
+Kovri er anvendelig i det omfang, hvad `./kovri --help` har at tilbyde. Kovri har i øjeblikket ingen interaktion med ByteRub. Med hensyn til privatlivets fred har vi etableret mange sikkerhedsproblemer siden starten, men vi beder dig om at huske på, at vi stadig er i Alpha.
 
 Der er stadig meget kode at dække, så forvent ikke en stærk garanti for anonymitet som med Tor, eller Java I2P. Disse projekter har 10+ års forskning og implementeringserfaring, og vi er lige begyndt.
 
@@ -95,7 +95,7 @@ Læs vores [README](https://github.com/byterubpay/kovri/blob/master/README.md).
 
 - Sikkerhed: vores fokus er på at sikre softwaren; ikke [at skynde os at blive færdige](https://github.com/byterubpay/kovri/issues/65) bare for at have en release
 - Kvalitet; du støtter bestræbelser på at sikre en kvalitets kodebase, der vil stå tidstesten. Dette omfatter alle aspekter af kodevedligeholdenhed
-- Monero: du vil støtte en krypto-valuta, der holder stærkt fat i konsevering af folks privatliv og anonymitet samtidig med at du øger både dit privatliv og din anonymitet
+- ByteRub: du vil støtte en krypto-valuta, der holder stærkt fat i konsevering af folks privatliv og anonymitet samtidig med at du øger både dit privatliv og din anonymitet
 
 ### Hvad er de største forskelle mellem Kovri og ip2d?
 

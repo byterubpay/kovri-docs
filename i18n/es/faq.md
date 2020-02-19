@@ -3,10 +3,10 @@
 ## ¿Que es Kovri?
 Kovri es una implementación del router [I2P](https://geti2p.net) en C++, segura, privada, no rastreable y anónima. Lo que una vez fue un fork de i2pd, Kovri se ha convertido en una implementación única y activamente desarrollada implementación en C++ de I2P implementación llevada por la comunidad con muchas mejoras de seguridad, y nuevas características por sobre su predecesor.
 
-Lee más de Kovri en la [Moneropedia](https://getmonero.org/resources/moneropedia/kovri.html).
+Lee más de Kovri en la [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri.html).
 
 ## ¿Cuál es el estado actual de Kovri?
-Kovri está en desarrollo activo y actualmente en fase Alpha. Kovri aun *no* está integrada con Monero pero, en adición a algunas funciones principales estamos desarrollando un [cliente](https://github.com/byterubpay/kovri/issues/351) y [una API](https://github.com/byterubpay/kovri/issues/350) principal para Monero y otras App.
+Kovri está en desarrollo activo y actualmente en fase Alpha. Kovri aun *no* está integrada con ByteRub pero, en adición a algunas funciones principales estamos desarrollando un [cliente](https://github.com/byterubpay/kovri/issues/351) y [una API](https://github.com/byterubpay/kovri/issues/350) principal para ByteRub y otras App.
 
 Actualmente, puedes conectarte y (formar parte de) la red I2P: navegar eepsites, conectarte a IRC y correr túneles cliente y servidor.
 
@@ -20,7 +20,7 @@ Los logs son guardados en UTC para proteger tu privacidad, usando UTC estas en u
 Actualmente, nos estamos enfocando en todo lo que se encuentra en nuestro [issues tracker](https://github.com/byterubpay/kovri/issues/). Ellos cubren un montón de cosas que necesitamos finalizar antes de lanzar una versión oficial (alpha, beta, o mayor).
 
 ## ¿Es Kovri usable, parcialmente usable, o recomendado no usarlo actualmente?
-Kovri es usable al punto de lo que ```./kovri --help``` tiene para ofrecer. Kovri aún no tiene interacción con Monero. Con respecto a la privacidad hemos arreglado muchos agujeros de seguridad desde los inicios, pero aún estamos en Alpha.
+Kovri es usable al punto de lo que ```./kovri --help``` tiene para ofrecer. Kovri aún no tiene interacción con ByteRub. Con respecto a la privacidad hemos arreglado muchos agujeros de seguridad desde los inicios, pero aún estamos en Alpha.
 
 Aún hay mucho código que cubrir así que no esperamos un anonimato fuerte asegurado como en Tor, o incluso java I2P. Esos proyectos tienen más de 10 años de experiencia en investigación e implementación - nosotros apenas estamos comenzando.
 
@@ -33,13 +33,13 @@ Lee nuestro [README](https://github.com/byterubpay/kovri/blob/master/README.md).
 
 - Seguridad: nuestro enfoque es en la seguridad de nuestro software; no [apurarnos a tener todo listo](https://github.com/byterubpay/kovri/issues/65) por el hecho de tener las cosas listas
 - Calidad: estas apoyando esfuerzos para ayudar a tener un código base de calidad que perdurara en el tiempo. Esto incluye todos los aspectos del mantenimiento del código
-- Monero: estarás apoyando una cripto-moneda que su orgullo principal es la preservación de la privacidad y anonimato mientras incrementa ambos tu privacidad y anonimato
+- ByteRub: estarás apoyando una cripto-moneda que su orgullo principal es la preservación de la privacidad y anonimato mientras incrementa ambos tu privacidad y anonimato
 
 ## ¿Cuáles son las principales diferencias entre Kovri y i2pd?
 
 - Proveemos un [Forum Funding System](https://forum.getmonero.org/8/funding-required) (sistema de recaudación de fondos) para desarrollo/características.
 - Nos enfocamos en crear una ["seguridad por defecto"](http://www.openbsd.org/security.html), fácilmente mantenible, un router I2P mas-probable-de-ser-revisado. Esto viene con el costo de bajar las características menos usadas por usuarios en otros routers, pero con la funcionalidad principal de que una API estará completamente intacta. Creando un router esqueleto, más pequeño y eficiente, hemos provisto a investigadores y desarrolladores más tiempo para auditorias de seguridad y más tiempo para analizar el diseño y especificaciones de I2P.
-- Nos enfocamos en implementar una API intuitiva y amigable para que cualquier aplicación se conecte y use la red I2P; incluyendo Monero
+- Nos enfocamos en implementar una API intuitiva y amigable para que cualquier aplicación se conecte y use la red I2P; incluyendo ByteRub
 - Hemos otorgado a ambos, usuarios finales y desarrolladores un [seguro de calidad](https://github.com/byterubpay/kovri/issues/58) y [modelos de desarrollo](https://github.com/byterubpay/kovri-docs/blob/master/i18n/es/contributing.md) para proveer un mejor software para todos.
 - Hemos implementado una opción de re-plantar como alternativa para que los usuarios puedan usar [Transportes Pluggables](https://www.torproject.org/docs/pluggable-transports.html.en) en vez de HTTPS para re-plantar.
 - Hemos implementado una extensa funcionalidad *(modo escondido + inbound deshabilitado)* para proveer anonimato a los que viven en países con condiciones extremas o con firewall de NAT o DS-Lite.

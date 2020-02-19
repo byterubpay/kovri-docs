@@ -1,4 +1,4 @@
-[Kovri](https://getmonero.org/resources/moneropedia/kovri.html) er en gratis, decentraliseret, anonymitetsteknologi udviklet af  [Monero](https://getmonero.org).
+[Kovri](https://getmonero.org/resources/moneropedia/kovri.html) er en gratis, decentraliseret, anonymitetsteknologi udviklet af  [ByteRub](https://getmonero.org).
 
 I øjeblikket baseret på [I2P](https://getmonero.org/resources/moneropedia/i2p.html)'s åbne specifikationer, bruger Kovri både [garlic encryption](https://getmonero.org/resources/moneropedia/garlic-encryption.html) og [garlic routing](https://getmonero.org/resources/moneropedia/garlic-routing.html) for at oprette et privat, beskyttet overlay-netværk over internettet. Dette overlay-netværk giver brugerne evnen til at *effektivt* skjule deres geografiske lokation og internet IP adresse.
 

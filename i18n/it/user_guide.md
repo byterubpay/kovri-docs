@@ -66,7 +66,7 @@ Note:
 - leggi `tunnels.conf` per imparare come impostare un server tunnel che punti al servizio che stai hostando
 
 ## Step 8. Buon divertimento!
-- Leggi di più su Kovri nella [Moneropedia](https://getmonero.org/resources/moneropedia/kovri.html).
+- Leggi di più su Kovri nella [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri.html).
 - Apri la tua richiesta per nuove feature o segnala un bug nel nostro [issues tracker](https://github.com/byterubpay/kovri/issues)
 - Approfondisci l'argomento Network I2P sul [sito java I2P](https://geti2p.net/en/docs)
 

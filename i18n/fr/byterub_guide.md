@@ -1,8 +1,8 @@
-# Monero à travers Kovri
+# ByteRub à travers Kovri
 
 ## Démarrer
 
-1. Suivez les instructions pour compiler et/ou installer [Kovri](https://github.com/byterubpay/kovri) & [Monero](https://github.com/byterubpay/monero)
+1. Suivez les instructions pour compiler et/ou installer [Kovri](https://github.com/byterubpay/kovri) & [ByteRub](https://github.com/byterubpay/monero)
 2. Étudiez le [Guide Utilisateur](https://github.com/byterubpay/kovri-docs/blob/master/i18n/fr/user_guide.md) dans la langue de votre choix
 3. Configurez les tunnels serveur et client de Kovri pour vous connecter aux nœuds `monerod` à travers le réseau I2P
 
@@ -47,7 +47,7 @@ Répétez le procéder pour chaque nœud auquel vous voulez vous connecter en ut
 
 Si vous avez déjà démarré votre routeur kovri, lancez `$ kill -HUP $(pgrep kovri)` pour charger le nouveau tunnel. Plus radicalement, vous pouvez également faire un redémarrage forcé en arrêtant et redémarrant kovri.
 
-## Monero P2P à travers Kovri
+## ByteRub P2P à travers Kovri
 
 Faire pointer `monerod` vers votre nouveau tunnel client Kovri est tout aussi simple.
 
@@ -59,9 +59,9 @@ monerod --testnet --start-mining your-testnet-wallet-address --add-exclusive-nod
 
 Si vous remarquez des problèmes de connectivité, attendez qur vos noeuds Kovri aient intégré le réseau (~5-10 min après démarrage)
 
-## Monero RPC à travers Kovri
+## ByteRub RPC à travers Kovri
 
-Exposer le service RPC de Monero à travers Kovri est un processus similaire.
+Exposer le service RPC de ByteRub à travers Kovri est un processus similaire.
 
 Configurez un tunnel serveur sur votre nœud Kovri :
 
@@ -82,7 +82,7 @@ Pour utiliser la même adresse de destination que pour P2P, remplacez simplement
 
 Si vous remarquez des problèmes de connectivité, attendez que vos nœuds Kovri aient intégré le réseau (~5-10 min après démarrage)
 
-Ce tunnel expose l'API JSON RPC testnet par défaut de Monero, et chacun peut utiliser le tunnel client HTTP de Kovri pour se connecter.
+Ce tunnel expose l'API JSON RPC testnet par défaut de ByteRub, et chacun peut utiliser le tunnel client HTTP de Kovri pour se connecter.
 
 Voici un exemple pour se connecter avec curl depuis un nœud client de Kovri :
 

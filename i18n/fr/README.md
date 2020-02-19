@@ -104,7 +104,7 @@ $ docker build -t kovri:latest .
 - Un [Guide Utilisateur](https://github.com/byterubpay/kovri-docs/blob/master/i18n/fr/user_guide.md) est disponible pour tous les utilisateurs
 - Un [Guide de développement](https://github.com/byterubpay/kovri-docs/blob/master/i18n/fr/developer_guide.md) est disponible pour les développeurs (veuillez le consulter avant d'ouvrir une *pull request*)
 - Vous trouverez plus de documentation dans la langue de votre choix dans le dépôt [kovri-docs](https://github.com/byterubpay/kovri-docs/)
-- [Moneropedia](https://getmonero.org/fr/resources/moneropedia/kovri.html) est recommandé pour tous les utilisateurs et développeurs
+- [ByteRubpedia](https://getmonero.org/fr/resources/moneropedia/kovri.html) est recommandé pour tous les utilisateurs et développeurs
 - Le [Forum Funding System](https://forum.getmonero.org/8/funding-required) permet d'obtenir des fonds pour financer vos travaux, [soumettez une proposition](https://forum.getmonero.org/7/open-tasks/2379/forum-funding-system-ffs-sticky)
 - [build.getmonero.org](https://build.getmonero.org/) ou monero-build.i2p pour des informations de compilation détaillées
 - [repo.getmonero.org](https://repo.getmonero.org/byterubpay/kovri) ou monero-repo.i2p sont des alternatives à GitHub pour l'accès au dépot en lecture
@@ -118,9 +118,9 @@ $ docker build -t kovri:latest .
 - IRC: [Freenode](https://webchat.freenode.net/) | Irc2P avec Kovri
   - `#kovri` | Canal de Communauté et de Support
   - `#kovri-dev` | Canal de Développement
-- [Mattermost Monero](https://mattermost.getmonero.org/)
-- [Slack Monero](https://monero.slack.com/) (ask for an invite on IRC)
-- [StackExchange Monero](https://monero.stackexchange.com/)
+- [Mattermost ByteRub](https://mattermost.getmonero.org/)
+- [Slack ByteRub](https://monero.slack.com/) (ask for an invite on IRC)
+- [StackExchange ByteRub](https://monero.stackexchange.com/)
 - [Reddit /r/Kovri](https://www.reddit.com/r/Kovri/)
 - Twitter: [@getkovri](https://twitter.com/getkovri)
 - Email:

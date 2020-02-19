@@ -91,7 +91,7 @@ Notes:
 - Overall, HTTP Proxy and address book implementation are in development and not yet feature-complete
 
 ## Step 9. Enjoy!
-- Read more about Kovri in the [Moneropedia](https://getmonero.org/resources/moneropedia/kovri).
+- Read more about Kovri in the [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri).
 - Open your feature requests or report bugs on our [issues tracker](https://github.com/byterubpay/kovri/issues)
 - Learn more about the I2P network on the [java I2P website](https://geti2p.net/en/docs)
 

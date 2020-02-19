@@ -1,10 +1,10 @@
-# Monero via Kovri
+# ByteRub via Kovri
 
 ## Getting Started
 
-1. Follow the instructions for building and/or installing [Kovri](https://github.com/byterubpay/kovri) & [Monero](https://github.com/byterubpay/monero)
+1. Follow the instructions for building and/or installing [Kovri](https://github.com/byterubpay/kovri) & [ByteRub](https://github.com/byterubpay/byterub)
 2. Review the [User Guide](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/user_guide.md) in your language of choice
-3. Configure Kovri server and client tunnels to connect to `monerod` nodes over the I2P network
+3. Configure Kovri server and client tunnels to connect to `byterubd` nodes over the I2P network
 
 ## Kovri server tunnel
 
@@ -47,7 +47,7 @@ Repeat the process for each node you would like to connect using Kovri.
 
 If you have already started your kovri router, run `$ kill -HUP $(pgrep kovri)` to load the new tunnel. More drastically, you can also do a hard restart by stopping and starting kovri.
 
-## Monero P2P via Kovri
+## ByteRub P2P via Kovri
 
 Pointing `monerod` to your new Kovri client tunnel is just as easy.
 
@@ -59,9 +59,9 @@ monerod --testnet --start-mining your-testnet-wallet-address --add-exclusive-nod
 
 If you notice connectivity issues, wait for your Kovri nodes to integrate into the network (~5-10 min after start).
 
-## Monero RPC via Kovri
+## ByteRub RPC via Kovri
 
-Exposing Monero's RPC service via Kovri is a similar process.
+Exposing ByteRub's RPC service via Kovri is a similar process.
 
 Configure a server tunnel on your Kovri node:
 

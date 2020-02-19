@@ -4,7 +4,7 @@
 2. En gratis, decentral, anonymitetsteknologi baseret på [I2P](https://getmonero.org/resources/moneropedia/i2p.html)'s åbne specifikationer
 
 ## Dementi
-- På nuværende tidspunkt **Alfa** software; under heftig udvikling (og endnu ikke integreret med Monero)
+- På nuværende tidspunkt **Alfa** software; under heftig udvikling (og endnu ikke integreret med ByteRub)
 
 ## Hurtig start
 
@@ -104,7 +104,7 @@ $ docker build -t kovri:latest .
 - En [Brugerguide](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/user_guide.md) er tilgængelig for alle brugere
 - En [Udviklerguide](https://github.com/byterubpay/kovri-docs/blob/master/i18n/en/developer_guide.md) er tilgængelig for alle udviklere (læse venligst før du åbner en pull request)
 - Yderligere dokumentation kan findes på dit valgte sprog i [kovri-docs](https://github.com/byterubpay/kovri-docs/) repositoriet
-- [Moneropedia](https://getmonero.org/resources/moneropedia/kovri.html) anbefales for alle brugere og udviklere
+- [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri.html) anbefales for alle brugere og udviklere
 - [Forum Funding System](https://forum.getmonero.org/8/funding-required) for at få økonomisk kompensation for dit arbejde [indsend et forslag](https://forum.getmonero.org/7/open-tasks/2379/forum-funding-system-ffs-sticky)
 - [build.getmonero.org](https://build.getmonero.org/) or monero-build.i2p for detaljeret build information
 - [repo.getmonero.org](https://repo.getmonero.org/byterubpay/kovri) eller monero-repo.i2p er alternativer til  GitHub for non-push repository adgang
@@ -118,9 +118,9 @@ $ docker build -t kovri:latest .
 - IRC: [Freenode](https://webchat.freenode.net/) | Irc2P with Kovri
   - `#kovri` | Community & Support Channel
   - `#kovri-dev` | Development Channel
-- [Monero Mattermost](https://mattermost.getmonero.org/)
-- [Monero Slack](https://monero.slack.com/) (spørg for invitation på IRC)
-- [Monero StackExchange](https://monero.stackexchange.com/)
+- [ByteRub Mattermost](https://mattermost.getmonero.org/)
+- [ByteRub Slack](https://monero.slack.com/) (spørg for invitation på IRC)
+- [ByteRub StackExchange](https://monero.stackexchange.com/)
 - [Reddit /r/Kovri](https://www.reddit.com/r/Kovri/)
 - Twitter: [@getkovri](https://twitter.com/getkovri)
 - Email:

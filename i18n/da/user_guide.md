@@ -90,7 +90,7 @@ Noter:
 - Samlet set, HTTP Proxy og adressebog implementationen er i udvikling og ikke endnu feature-komplette
 
 ## Trin 9. God fornøjelse!
-- Læs mere om Kovri på [Moneropedia](https://getmonero.org/resources/moneropedia/kovri).
+- Læs mere om Kovri på [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri).
 - Åben dine feature requests eller report bugs på vores [issues tracker](https://github.com/byterubpay/kovri/issues)
 - Lær mere om I2P netværket på [java I2P websiden](https://geti2p.net/en/docs)
 

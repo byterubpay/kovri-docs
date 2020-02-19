@@ -90,7 +90,7 @@ Remarques :
 - Enfin, le Proxy HTTP et le carnet d'adresse sont en cours de développement.
 
 ## Etape 9. Amusez-vous!
-- En savoir plus à propos de Kovri dans le [Moneropedia](https://getmonero.org/resources/moneropedia/kovri.html).
+- En savoir plus à propos de Kovri dans le [ByteRubpedia](https://getmonero.org/resources/moneropedia/kovri.html).
 - Ouvrez une requête de fonctionnalité ou rapportez un bug dans notre [issues tracker](https://github.com/byterubpay/kovri/issues)
 - En savoir plus à propos du réseau I2P sur le [site java I2P](https://geti2p.net/en/docs)
 
