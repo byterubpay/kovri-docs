@@ -13,12 +13,12 @@ Tout d'abord, configurez un tunnel serveur sur un nœud.
 Pour configurer un tunnel serveur, voir le fichier `tunnels.conf` situé dans votre répertoire de données. Pour localiser votre répertoire de données, voir `kovri.conf`.
 
 ```
-[XMR_P2P_Server]
+[BTR_P2P_Server]
 type = server
 address = 127.0.0.1
 port = 28080
 in_port = 28080
-keys = xmr-p2p-keys.dat
+keys = btr-p2p-keys.dat
 ;white_list =
 ;black_list =
 ```
@@ -34,13 +34,13 @@ Maintenant que le tunnel serveur est configuré, commencez la configuration du t
 Exemple :
 
 ```
-[XMR_Client]
+[BTR_Client]
 type = client
 address = 127.0.0.1
 port = 24040
 dest = your-copied-server-destination.b32.i2p
 dest_port = 28080
-keys = xmr-client-keys.dat
+keys = btr-client-keys.dat
 ```
 
 Répétez le procéder pour chaque nœud auquel vous voulez vous connecter en utilisant Kovri.
@@ -66,19 +66,19 @@ Exposer le service RPC de ByteRub à travers Kovri est un processus similaire.
 Configurez un tunnel serveur sur votre nœud Kovri :
 
 ```
-[XMR_RPC_Server]
+[BTR_RPC_Server]
 type = server
 address = 127.0.0.1
 port = 28081
 in_port = 28081
-keys = xmr-rpc-keys.dat
+keys = btr-rpc-keys.dat
 ;white_list =
 ;black_list =
 ```
 
 Cela va générer un nouveau jeu de clefs, et une nouvelle adresse de destination.
 
-Pour utiliser la même adresse de destination que pour P2P, remplacez simplement `xmr-rpc-keys.dat` par `xmr-p2p-keys.dat` dans la configuration ci-dessus.
+Pour utiliser la même adresse de destination que pour P2P, remplacez simplement `btr-rpc-keys.dat` par `btr-p2p-keys.dat` dans la configuration ci-dessus.
 
 Si vous remarquez des problèmes de connectivité, attendez que vos nœuds Kovri aient intégré le réseau (~5-10 min après démarrage)
 

@@ -13,12 +13,12 @@ First, configure a server tunnel on one node.
 To setup a server tunnel, see `tunnels.conf` located in your data directory. To locate your data directory, see `kovri.conf`.
 
 ```
-[XMR_P2P_Server]
+[BTR_P2P_Server]
 type = server
 address = 127.0.0.1
 port = 28080
 in_port = 28080
-keys = xmr-p2p-keys.dat
+keys = btr-p2p-keys.dat
 ;white_list =
 ;black_list =
 ```
@@ -34,13 +34,13 @@ Now that the server tunnel is setup, begin the client tunnel setup by pointing t
 Example:
 
 ```
-[XMR_Client]
+[BTR_Client]
 type = client
 address = 127.0.0.1
 port = 24040
 dest = your-copied-server-destination.b32.i2p
 dest_port = 28080
-keys = xmr-client-keys.dat
+keys = btr-client-keys.dat
 ```
 
 Repeat the process for each node you would like to connect using Kovri.
@@ -66,19 +66,19 @@ Exposing ByteRub's RPC service via Kovri is a similar process.
 Configure a server tunnel on your Kovri node:
 
 ```
-[XMR_RPC_Server]
+[BTR_RPC_Server]
 type = server
 address = 127.0.0.1
 port = 28081
 in_port = 28081
-keys = xmr-rpc-keys.dat
+keys = btr-rpc-keys.dat
 ;white_list =
 ;black_list =
 ```
 
 This will generate a new set of keys, and a new destination address.
 
-To use the same destination address as P2P, simply replace `xmr-rpc-keys.dat` with `xmr-p2p-keys.dat` in the above configuration.
+To use the same destination address as P2P, simply replace `btr-rpc-keys.dat` with `btr-p2p-keys.dat` in the above configuration.
 
 If you have already started your kovri router, run `$ kill -HUP $(pgrep kovri)` to load the new tunnel. More drastically, you can also do a hard restart by stopping and starting kovri.
 
